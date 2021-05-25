@@ -44,3 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/prototyping/srd.json
+src/prototyping/srd-class.json
+src/prototyping/srd-spell.json
+src/prototyping/srd-feat.json
