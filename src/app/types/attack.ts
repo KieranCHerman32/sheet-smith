@@ -1,1 +1,1 @@
-export class Attack {}
+export interface Attack {}

@@ -1,3 +1,3 @@
-export class ACata {
+export interface ACata {
 
 }

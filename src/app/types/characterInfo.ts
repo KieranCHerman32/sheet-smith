@@ -1,4 +1,4 @@
-export class CharacterInfo {
+export interface CharacterInfo {
 name: string;
 careerXp: number;
 classInfo: charClass[];

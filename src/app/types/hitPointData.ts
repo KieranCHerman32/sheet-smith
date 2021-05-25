@@ -1,3 +1,3 @@
-export class HitPointData {
+export interface HitPointData {
 
 }

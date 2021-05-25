@@ -1,4 +1,4 @@
-export class Ability {
+export interface Ability {
   abName: string;
   abAbbr: string;
   abScore: number;

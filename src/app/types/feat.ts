@@ -1,1 +1,1 @@
-export class Feat {}
+export interface Feat {}

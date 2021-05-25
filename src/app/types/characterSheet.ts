@@ -12,7 +12,7 @@ import { SavingThrow } from "./savingThrow";
 import { Skill } from "./skill";
 import { SpellData } from "./spellData";
 
-export class CharacterSheet {
+export interface CharacterSheet {
   isNPC: boolean;
   playerNm: boolean;
   character: CharacterInfo;

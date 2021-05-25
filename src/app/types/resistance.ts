@@ -1,1 +1,1 @@
-export class Resistance {}
+export interface Resistance {}

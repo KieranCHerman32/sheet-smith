@@ -1,1 +1,1 @@
-export class InitiativeData {}
+export interface InitiativeData {}

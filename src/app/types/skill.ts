@@ -1,6 +1,6 @@
 import { Ability } from "./ability";
 
-export class Skill {
+export interface Skill {
   name: string;
   keyAbility: Ability;
 

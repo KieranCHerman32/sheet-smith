@@ -1,1 +1,1 @@
-export class SavingThrow {}
+export interface SavingThrow {}

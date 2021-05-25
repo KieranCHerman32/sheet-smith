@@ -1,3 +1,3 @@
-export class SpellData {
+export interface SpellData {
 
 }
