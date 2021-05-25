@@ -1,7 +1,12 @@
+import { CharClass } from "./charclass";
+import { Deity } from "./deity";
+import { Race } from "./race";
+import { Size } from "./size";
+
 export interface CharacterInfo {
 name: string;
 careerXp: number;
-classInfo: charClass[];
+classInfo: CharClass[];
 race: Race;
 alignment: string;
 Deity: Deity;
