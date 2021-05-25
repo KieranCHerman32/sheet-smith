@@ -1,13 +1,15 @@
+import { Ability } from "./ability";
+
 export class Skill {
   name: string;
-  keyAbility: string;
+  keyAbility: Ability;
 
   abilityMod: number;
   ranks: number;
   miscMod: number;
   skillMod: number;
 
-  armorCheck: boolean;
-  useUntrained: boolean;
+  hasArmorCheckPenalty: boolean;
+  canUseUntrained: boolean;
   classSkill: boolean;
 }
