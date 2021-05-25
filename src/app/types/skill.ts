@@ -11,5 +11,9 @@ export interface Skill {
 
   hasArmorCheckPenalty: boolean;
   canUseUntrained: boolean;
-  classSkill: boolean;
+  isClassSkill: boolean;
+
+  isCraftSkill: boolean;
+  isKnowledgeSkill: boolean;
+  isPerformSkill: boolean;
 }
