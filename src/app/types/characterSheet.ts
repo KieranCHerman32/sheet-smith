@@ -1,5 +1,5 @@
 import { Ability } from "./ability";
-import { ACata } from "./acData";
+import { ACData } from "./acData";
 import { Attack } from "./attack";
 import { CharacterInfo } from "./characterInfo";
 import { Feat } from "./feat";
@@ -15,18 +15,18 @@ import { SpellData } from "./spellData";
 export interface CharacterSheet {
   isNPC: boolean;
   playerNm: boolean;
-  character: CharacterInfo;
+  character: CharacterInfo; // implemented
   speed: number;
-  abilities: Ability[];
+  abilities: Ability[]; // implemented
   hitPoints: HitPointData;
-  armorClass: ACata;
+  armorClass: ACData;
   savingThrows: SavingThrow[];
   initiative: InitiativeData;
   baseAtkBonus: number;
   resistance: Resistance[];
   grapple: GrappleData;
   attacks: Attack[];
-  skills: Skill[];
+  skills: Skill[]; // implemented
   inventory: InventoryData;
   feats: Feat[];
   specialAbilities: string[];

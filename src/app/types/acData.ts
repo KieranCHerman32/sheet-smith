@@ -1,3 +1,3 @@
-export interface ACata {
+export interface ACData {
 
 }
