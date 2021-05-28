@@ -1,1 +1,5 @@
-export interface InitiativeData {}
+export interface InitiativeData {
+  totalInt: number;
+  dexMod: number;
+  miscMod: number;
+}
