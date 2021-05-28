@@ -18,13 +18,13 @@ export interface CharacterSheet {
   character: CharacterInfo; // implemented
   speed: number;
   abilities: Ability[]; // implemented
-  hitPoints: HitPointData;
-  armorClass: ACData;
-  savingThrows: SavingThrow[];
-  initiative: InitiativeData;
+  hitPoints: HitPointData; // implemented
+  armorClass: ACData; // implemented
+  savingThrows: SavingThrow[]; // implemented
+  initiative: InitiativeData; // implemented
   baseAtkBonus: number;
-  resistance: Resistance[];
-  grapple: GrappleData;
+  resistances: Resistance[]; // implemented
+  grapple: GrappleData; // implemented
   attacks: Attack[];
   skills: Skill[]; // implemented
   inventory: InventoryData;

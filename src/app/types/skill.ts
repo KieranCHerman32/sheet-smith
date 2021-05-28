@@ -2,7 +2,7 @@ import { Ability } from "./ability";
 
 export interface Skill {
   name: string;
-  keyAbility: Ability;
+  keyAbility: Ability; // implemented
 
   abilityMod: number;
   ranks: number;
