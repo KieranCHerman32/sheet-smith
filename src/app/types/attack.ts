@@ -1,9 +1,12 @@
+import { Ammunition } from "./ammunition";
+import { Roll } from "./roll";
+
 export interface Attack {
   nm: string;
   atkBonus: number;
   damage: Roll;
   crit: number;
-  range: AtkRange;
+  range: number;
   type: string;
   notes: string;
   ammunition: Ammunition;
