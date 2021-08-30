@@ -7,10 +7,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { CharacterInfoComponent } from './character-info/character-info.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharacterInfoComponent
   ],
   imports: [
     BrowserModule,
