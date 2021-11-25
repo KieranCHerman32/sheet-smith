@@ -1,0 +1,129 @@
+{
+  "pbName": "Angel",
+  "pbDesc": "When you’re lying in the dust of Apocalypse World guts aspilled, for whom do you pray? The gods? They’re long gone. Your beloved comrades? Fuckers all, or you wouldn’t be here to begin with. Your precious old mother? She’s a darling but she can’t put an intestine back inside so it’ll stay. No you pray for some grinning kid or veteran or just someone with a heartshocker and a hand with sutures and a 6-pack of morphine. And when that someone comes, that’s an angel.",
+  "pbStats": [
+    [{
+      "name": "Cool",
+      "modifier": 0
+    }, {
+      "name": "Hard",
+      "modifier": 0
+    }, {
+      "name": "Hot",
+      "modifier": 0
+    }, {
+      "name": "Sharp",
+      "modifier": 0
+    }, {
+      "name": "Weird",
+      "modifier": 0
+    }],
+    [{
+      "name": "Cool",
+      "modifier": 0
+    }, {
+      "name": "Hard",
+      "modifier": 0
+    }, {
+      "name": "Hot",
+      "modifier": 0
+    }, {
+      "name": "Sharp",
+      "modifier": 0
+    }, {
+      "name": "Weird",
+      "modifier": 0
+    }],
+    [{
+      "name": "Cool",
+      "modifier": 0
+    }, {
+      "name": "Hard",
+      "modifier": 0
+    }, {
+      "name": "Hot",
+      "modifier": 0
+    }, {
+      "name": "Sharp",
+      "modifier": 0
+    }, {
+      "name": "Weird",
+      "modifier": 0
+    }],
+    [{
+      "name": "Cool",
+      "modifier": 0
+    }, {
+      "name": "Hard",
+      "modifier": 0
+    }, {
+      "name": "Hot",
+      "modifier": 0
+    }, {
+      "name": "Sharp",
+      "modifier": 0
+    }, {
+      "name": "Weird",
+      "modifier": 0
+    }]
+  ],
+  "pbFirstNameOpts": [
+    "Dou", "Bon", "Abe", "Boo", "T", "Kal", "Bai", "Char", "Jav", "Ruth", "Wei", "Jay", "Nee", "Kim", "Lan", "Di", "Dez", "Doc", "Core", "Wheels", "Buzz", "Key", "Gabe", "Biz", "Bish", "Line", "Inch", "Grip", "Setter"
+  ],
+  "pbLookOpts": {
+    "lookPresentation": [
+      "Man", "Woman", "Ambiguous", "Transgressing"
+    ],
+    "lookClothes": [
+      "Combat Biker", "Showy Biker", "Scrounge Biker", "S&M Biker"
+    ],
+    "lookFace": [
+      "Weathered", "Strong", "Rugged", "Narrow", "Busted"
+    ],
+    "lookEyes": [
+      "Narrow", "Scorched", "Calculating", "Weary", "Kind"
+    ],
+    "lookBody": [
+      "Squat", "Rangy", "Wiry", "Sturdy", "Fat"
+    ]
+  },
+  "pbMoves": [{
+    "name": "Angel Kit",
+    "effect": "Your angel kit has all kinds of crap in it: scissors, rags, tape, needles, clamps, gloves, chill coils, wipes, alcohol, injectable tourniquets & bloodslower, instant blood packets (coffee reddener), tubes of meatmesh, bonepins & site injectors, biostabs, chemostabs, narcostabs (chillstabs) in quantity, and a roll of heart jumpshock patches for when it comes to that. It’s big enough to fill the trunk of a car. When you use it, spend its stock; you can spend 0–3 of its stock per use. You can resupply it for 1-barter per 2-stock, if your circumstances let you barter for medical supplies. It begins play holding 6-stock. To use it to stabilize and heal someone at 9:00 or past: roll +stock spent. On a hit, they will stabilize and heal to 6:00, but the MC will choose 1 (on a 10+) or 2 (on a 7–9): • they need to be physically stabilized before you can move them. • even narcostabbed, they fight you; you’re acting under fire. • they’ll be in and out of consciousness for 24 hours. • stabilizing them eats up your stock; spend 1-stock more. • they’ll be bedridden, out of action, for at least a week. • they’ll need constant monitoring and care for 36 hours. On a miss, they take 1-harm instead. To use it to speed the recovery of someone at 3:00 or 6:00: don’t roll. They choose: spend 4 days (3:00) or 1 week (6:00) blissed out on chillstabs, immobile but happy, or do their time like everyone else. To use it to revive someone who’s died (at 12:00, not beyond): roll +stock spent. On a 10+, they recover to 10:00. On a 7–9, they recover to 11:00. On a miss, you’ve done everything you can for them, and they’re still dead.",
+    "outcomes": [{}]
+  }, {
+    "name": "Sixth Sense",
+    "effect": "when you open your brain to the world’s psychic maelstrom, roll +sharp instead of roll +weird."
+  }, {
+    "name": "Infirmary",
+    "effect": "you get an infirmary, a workspace with life support, a drug lab and a crew of 2 (Shigusa & Mox, maybe). Get patients into it and you can work on them like a savvyhead on tech (cf)."
+  }, {
+    "name": "Professional Compassion",
+    "effect": "you can choose to roll +sharp instead of roll +Hx when you help someone who’s rolling."
+  }, {
+    "name": "Healing Touch",
+    "effect": "when you put your hands skin-to-skin on a wounded person and open your brain to them, roll +weird.",
+    "outcomes": [{
+      "condition": "On a 10+",
+      "effect": "heal 1 segment."
+    }, {
+      "condition": "On a 7–9",
+      "effect": "heal 1 segment, but you’re acting under fire from your patient’s brain."
+    }, {
+      "condition": "On a miss",
+      "effect": "first, you don’t heal them. Second, you’ve opened both your brain and theirs to the world’s psychic maelstrom, without protection or preparation. For you, and for your patient if your patient’s a fellow player’s character, treat it as though you’ve made that move and missed the roll. For patients belonging to the MC, their experience and fate are up to the MC."
+    }]
+  }, {
+    "name": "Touched By Death",
+    "effect": "whenever someone in your care dies, you get +1 weird (max +3)."
+  }],
+  "pbSpecial": {
+    "name": "Angel Special",
+    "effect": "If you and another character have sex, your Hx with them on your sheet goes immediately to +3, and they immediately get +1 to their Hx with you on their sheet. If that brings their Hx with you to +4, they reset it to +1 instead, as usual, and so mark experience."
+  },
+  "pbRules": Move[],
+  "pbGear": Gear[],
+  "pbBarter": "Oddments worth 1 Barter",
+  "pbHx": HxOpt[],
+  "pbImprovement": Improvement
+}
