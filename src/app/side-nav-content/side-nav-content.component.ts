@@ -14,8 +14,8 @@ export class SideNavContentComponent implements OnInit {
     'campaign',
     'level',
     'class',
-    'created',
-    'lastEdit'
+    // 'created',
+    // 'lastEdit'
   ];
 
   sheetSource = ELEMENT_DATA;
