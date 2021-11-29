@@ -24,6 +24,11 @@ button {
 }
 
 mat-drawer {
-  background: #F5F5F5;
+  background: #f5f5f5;
   border: none;
+}
+
+#ssVer {
+  font-size: smaller;
+  font-weight: 400;
 }

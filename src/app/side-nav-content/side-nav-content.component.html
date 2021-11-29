@@ -10,6 +10,9 @@
   </mat-select>
 </mat-form-field>
 
+<div><button mat-flat-button>+ New Character</button></div>
+<mat-divider></mat-divider>
+
 <table mat-table [dataSource]="sheetSource" class="mat-elevation-z8">
 
   <ng-container matColumnDef="name">
@@ -26,3 +29,6 @@
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
+
+<mat-divider></mat-divider>
+<div><button mat-flat-button>View All Characters</button></div>

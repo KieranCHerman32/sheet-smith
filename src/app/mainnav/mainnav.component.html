@@ -3,8 +3,9 @@
           (click)="drawer.toggle()">
     <mat-icon>menu</mat-icon>
   </button>
-  <span (click)="drawer.toggle()">SheetSmith<span>&nbsp;1e</span></span>
-  <span class="example-spacer"></span>`
+  <!-- ssVer id will change based on release...dynamically displayed versioning -->
+  <span (click)="drawer.toggle()">SheetSmith<span id="ssVer">&nbsp;dev</span></span>
+  <span class="example-spacer"></span>
 </mat-toolbar>
 <mat-drawer-container class="example-container" autosize>
   <mat-drawer #drawer class="example-sidenav" mode="side">

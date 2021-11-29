@@ -11,6 +11,8 @@ import { AppComponent } from './app.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 import { MatDividerModule } from '@angular/material/divider';
+import { MatButtonModule } from '@angular/material/button';
+
 
 
 @NgModule({
@@ -29,6 +31,7 @@ import { MatDividerModule } from '@angular/material/divider';
     MatTableModule,
     MatToolbarModule,
     MatDividerModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
