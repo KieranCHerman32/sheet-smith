@@ -22,3 +22,8 @@ button {
   border: unset;
   background-color: unset;
 }
+
+mat-drawer {
+  background: #F5F5F5;
+  border: none;
+}

@@ -11,9 +11,9 @@ export class SideNavContentComponent implements OnInit {
   displayedColumns: string[] = [
     'name',
     'rpg',
-    'campaign',
-    'level',
-    'class',
+    // 'campaign',
+    // 'level',
+    // 'class',
     // 'created',
     // 'lastEdit'
   ];
@@ -30,14 +30,16 @@ export class SideNavContentComponent implements OnInit {
 export interface sheetData {
   name: string;
   rpg: string;
-  campaign: string;
-  level: string;
-  class: string;
-  created: string;
-  lastEdit: string;
 }
 
 const ELEMENT_DATA: sheetData[] = [
-
+  {
+    "name": "Ward",
+    "rpg": "D&D 3.5e"
+  },
+  {
+    "name": "Sima",
+    "rpg": "D&D 3.5e"
+  }
 ];
 

@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
+import { MatDividerModule } from '@angular/material/divider';
+
 
 @NgModule({
   declarations: [
@@ -18,14 +20,15 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
     SideNavContentComponent
   ],
   imports: [
-    BrowserModule,
     BrowserAnimationsModule,
-    MatSidenavModule,
-    MatToolbarModule,
-    MatIconModule,
+    BrowserModule,
     MatFormFieldModule,
+    MatIconModule,
     MatSelectModule,
-    MatTableModule
+    MatSidenavModule,
+    MatTableModule,
+    MatToolbarModule,
+    MatDividerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

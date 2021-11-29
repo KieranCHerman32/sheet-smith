@@ -1,75 +1,28 @@
 <mat-form-field appearance="outline">
   <mat-label>Filter By TTRPG</mat-label>
-  <mat-select #mode
-              value="all">
-    <mat-option [disabled]="true"
-                value="dnd5">Dungeons & Dragons</mat-option>
+  <mat-select #mode value="all">
+    <!-- Implement Service to auto-generate options and dividers -->
+    <mat-option [disabled]="true" value="dnd5">Dungeons & Dragons</mat-option>
     <mat-option value="dnd5">5e</mat-option>
     <mat-option value="dnd35">3.5e</mat-option>
-    <mat-option [disabled]="true"
-                value="dnd5">Powered By The Apocalypse</mat-option>
+    <mat-option [disabled]="true" value="dnd5">Powered By The Apocalypse</mat-option>
     <mat-option value="pbta1">Apocalypse World</mat-option>
   </mat-select>
 </mat-form-field>
 
-<div>
-  <table mat-table
-         [dataSource]="sheetSource"
-         class="mat-elevation-z8">
+<table mat-table [dataSource]="sheetSource" class="mat-elevation-z8">
 
-    <ng-container matColumnDef="name">
-      <th mat-header-cell
-          *matHeaderCellDef>Name</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef>Name</th>
+    <td mat-cell *matCellDef="let char"> {{char.name}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="rpg">
-      <th mat-header-cell
-          *matHeaderCellDef>RPG</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
+  <ng-container matColumnDef="rpg">
+    <th mat-header-cell *matHeaderCellDef>RPG</th>
+    <td mat-cell *matCellDef="let char"> {{char.rpg}} </td>
+  </ng-container>
 
-    <ng-container matColumnDef="campaign">
-      <th mat-header-cell
-          *matHeaderCellDef>Campaign</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="level">
-      <th mat-header-cell
-          *matHeaderCellDef>Lv.</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="class">
-      <th mat-header-cell
-          *matHeaderCellDef>Class</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
-
-    <!-- <ng-container matColumnDef="created">
-      <th mat-header-cell
-          *matHeaderCellDef>Created</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container>
-
-    <ng-container matColumnDef="lastEdit">
-      <th mat-header-cell
-          *matHeaderCellDef>Last Edited</th>
-      <td mat-cell
-          *matCellDef="let char"> {{char.name}} </td>
-    </ng-container> -->
-
-    <tr mat-header-row
-        *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row
-        *matRowDef="let row; columns: displayedColumns;"></tr>
-  </table>
-
-</div>
+  <!-- TODO: Auto-populate recently used character sheets -->
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
