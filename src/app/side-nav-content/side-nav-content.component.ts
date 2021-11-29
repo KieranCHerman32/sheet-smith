@@ -1,45 +1,37 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-side-nav-content',
-  templateUrl: './side-nav-content.component.html',
-  styleUrls: ['./side-nav-content.component.css']
+	selector: 'app-side-nav-content',
+	templateUrl: './side-nav-content.component.html',
+	styleUrls: ['./side-nav-content.component.css'],
 })
 export class SideNavContentComponent implements OnInit {
+	displayedColumns: string[] = [
+		'name',
+		'rpg',
+	];
 
+	sheetSource = ELEMENT_DATA;
+	charFilter = 'All';
 
-  displayedColumns: string[] = [
-    'name',
-    'rpg',
-    // 'campaign',
-    // 'level',
-    // 'class',
-    // 'created',
-    // 'lastEdit'
-  ];
+	constructor() { }
 
-  sheetSource = ELEMENT_DATA;
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+	ngOnInit(): void { }
 }
 
 export interface sheetData {
-  name: string;
-  rpg: string;
+  name: string
+  rpg: string
 }
 
 const ELEMENT_DATA: sheetData[] = [
-  {
-    "name": "Ward",
-    "rpg": "D&D 3.5e"
-  },
-  {
-    "name": "Sima",
-    "rpg": "D&D 3.5e"
-  }
+	{
+		name: 'Ward',
+		rpg: 'D&D 3.5e',
+	},
+	{
+		name: 'Sima',
+		rpg: 'D&D 3.5e',
+	},
 ];
 
