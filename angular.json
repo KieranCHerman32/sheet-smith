@@ -104,5 +104,10 @@
       }
     }
   },
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
   "defaultProject": "sheet-smith"
 }
