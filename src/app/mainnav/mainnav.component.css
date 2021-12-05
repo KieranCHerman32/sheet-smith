@@ -18,6 +18,11 @@
   flex: 1 1 auto;
 }
 
+::ng-deep .mat-form-field {
+  font-weight: 500;
+  line-height: 1;
+}
+
 button {
   border: unset;
   background-color: unset;
