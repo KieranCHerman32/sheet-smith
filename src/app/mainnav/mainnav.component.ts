@@ -11,14 +11,14 @@ import {environment} from './../../environments/environment';
 export class MainnavComponent implements OnInit {
 	ssVer: string = environment.ssVer;
 
-	message: string = '';
+	nav: string = '';
 	subscription!: Subscription;
 
 	constructor(private data: NavigationService) {}
 
 	ngOnInit() {
-		this.subscription = this.data.currentMessage.subscribe(
-			message => (this.message = message),
+		this.subscription = this.data.currentMainNav.subscribe(
+			nav => (this.nav = nav),
 		);
 	}
 

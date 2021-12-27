@@ -8,7 +8,7 @@ import {Subscription} from 'rxjs';
 	styleUrls: ['./side-nav-content.component.scss'],
 })
 export class SideNavContentComponent implements OnInit {
-	message: string = '';
+	nav: string = '';
 	subscription!: Subscription;
 
 	displayedColumns: string[] = ['name', 'rpg'];
@@ -19,8 +19,8 @@ export class SideNavContentComponent implements OnInit {
 	constructor(private data: NavigationService) {}
 
 	ngOnInit(): void {
-		this.subscription = this.data.currentMessage.subscribe(
-			message => (this.message = message),
+		this.subscription = this.data.currentMainNav.subscribe(
+			nav => (this.nav = nav),
 		);
 	}
 
@@ -28,8 +28,9 @@ export class SideNavContentComponent implements OnInit {
 		this.subscription.unsubscribe();
 	}
 
-	newMessage() {
-		this.data.changeMessage('Hello from Sibling');
+	changeMainNav(nav: string) {
+		nav = `${nav}Sheet`;
+		this.data.changeMainNav(nav);
 	}
 }
 

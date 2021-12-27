@@ -5,12 +5,12 @@ import {BehaviorSubject} from 'rxjs';
 	providedIn: 'root',
 })
 export class NavigationService {
-	private messageSource = new BehaviorSubject('default-message');
-	currentMessage = this.messageSource.asObservable();
+	private mainNavSource = new BehaviorSubject('main');
+	currentMainNav = this.mainNavSource.asObservable();
 
 	constructor() {}
 
-	changeMessage(message: string) {
-		this.messageSource.next(message);
+	changeMainNav(mainNav: string) {
+		this.mainNavSource.next(mainNav);
 	}
 }

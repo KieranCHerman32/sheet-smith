@@ -11,7 +11,8 @@
 </mat-form-field>
 
 <div>
-  <button mat-flat-button>Create New <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character</button>
+  <button mat-flat-button (click)="changeMainNav('new')">Create New <span
+          *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character</button>
 </div>
 <mat-divider></mat-divider>
 
@@ -34,6 +35,7 @@
 
 <mat-divider></mat-divider>
 <div>
-  <button mat-flat-button (click)="newMessage()">View All <span *ngIf="charFilter !== 'All'">{{charFilter}}</span>
+  <button mat-flat-button (click)="changeMainNav('viewAll')">View All <span
+          *ngIf="charFilter !== 'All'">{{charFilter}}</span>
     Characters</button>
 </div>
