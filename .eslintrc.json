@@ -17,6 +17,9 @@
   ],
   "rules": {
     "no-useless-constructor": "off",
-    "new-cap": "off"
+    "new-cap": "off",
+    "no-undef": "off",
+    "no-return-assign": "off",
+    "no-unused-vars": "off"
   }
 }
