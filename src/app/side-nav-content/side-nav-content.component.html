@@ -34,5 +34,6 @@
 
 <mat-divider></mat-divider>
 <div>
-  <button mat-flat-button>View All <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Characters</button>
+  <button mat-flat-button (click)="newMessage()">View All <span *ngIf="charFilter !== 'All'">{{charFilter}}</span>
+    Characters</button>
 </div>
