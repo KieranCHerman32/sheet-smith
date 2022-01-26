@@ -1,6 +1,8 @@
 {
-	"cSpell.words": [
-		"Mainnav",
-		"TTRPG"
-	]
+  "cSpell.words": [
+    "Mainnav",
+    "TTRPG"
+  ],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active"
 }
