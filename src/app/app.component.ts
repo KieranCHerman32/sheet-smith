@@ -1,4 +1,5 @@
-import {Component, OnInit} from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { AngularFirestore } from '@angular/fire/compat/firestore';
 
 @Component({
 	selector: 'app-root',
@@ -8,5 +9,6 @@ import {Component, OnInit} from '@angular/core';
 export class AppComponent implements OnInit {
 	title = 'sheet-smith';
 
+	constructor(firestore: AngularFirestore) {}
 	ngOnInit(): void {}
 }
