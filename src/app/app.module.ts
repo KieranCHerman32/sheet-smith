@@ -7,6 +7,8 @@ import {
 } from '@angular/fire/analytics';
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app';
 import { getAuth, provideAuth } from '@angular/fire/auth';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { getDatabase, provideDatabase } from '@angular/fire/database';
 import { getFirestore, provideFirestore } from '@angular/fire/firestore';
 import { getFunctions, provideFunctions } from '@angular/fire/functions';
@@ -32,6 +34,7 @@ import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
 	declarations: [AppComponent, MainnavComponent, SideNavContentComponent],
@@ -47,6 +50,9 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MatDividerModule,
 		MatButtonModule,
 		FormsModule,
+		AngularFireModule.initializeApp(environment.firebase),
+		// AnalyticsModule,
+		AngularFirestoreModule,
 		provideFirebaseApp(() => initializeApp(environment.firebase)),
 		provideAnalytics(() => getAnalytics()),
 		provideAuth(() => getAuth()),
@@ -57,8 +63,24 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		providePerformance(() => getPerformance()),
 		provideRemoteConfig(() => getRemoteConfig()),
 		provideStorage(() => getStorage()),
+  FontAwesomeModule,
+		// ProvideFirebaseApp(() => initializeApp(environment.firebase)),
+		// provideAnalytics(() => getAnalytics()),
+		// provideAuth(() => getAuth()),
+		// provideDatabase(() => getDatabase()),
+		// provideFirestore(() => getFirestore()),
+		// provideFunctions(() => getFunctions()),
+		// provideMessaging(() => getMessaging()),
+		// providePerformance(() => getPerformance()),
+		// provideRemoteConfig(() => getRemoteConfig()),
+		// provideStorage(() => getStorage()),
 	],
-	providers: [ScreenTrackingService, UserTrackingService],
+	providers: [
+		ScreenTrackingService,
+		UserTrackingService,
+		ScreenTrackingService,
+		UserTrackingService,
+	],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}

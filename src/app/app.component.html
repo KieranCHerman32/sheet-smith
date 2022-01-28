@@ -1,1 +1,9 @@
 <app-mainnav></app-mainnav>
+<ul>
+  <li class="text">
+    List starts here
+  </li>
+  <li class="text" *ngFor="let item of items | async">
+    {{item.name}}
+  </li>
+</ul>
