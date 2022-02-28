@@ -1,21 +1,34 @@
 import { Injectable } from '@angular/core';
-import { AngularFirestore } from '@angular/fire/compat/firestore';
+import {
+	AngularFirestore,
+	AngularFirestoreCollection,
+} from '@angular/fire/compat/firestore';
+import { Testing } from '../types/testing';
 
 @Injectable({
 	providedIn: 'root',
 })
 export class DataService {
-	constructor(private firestore: AngularFirestore) {}
+	private dbPath = '/testing';
+	testingRef: AngularFirestoreCollection<Testing>;
+	constructor(private firestore: AngularFirestore) {
+		this.testingRef = firestore.collection(this.dbPath);
+		console.log('testingRef', this.testingRef);
+	}
 
-	createNewTestingRecord(data: any) {
-		return new Promise<any>((resolve, reject) => {
-			this.firestore
-				.collection('testing')
-				.add(data)
-				.then(
-					res => {},
-					err => reject(err),
-				);
-		});
+	getAll(): AngularFirestoreCollection<Testing> {
+		return this.testingRef;
+	}
+
+	create(testing: Testing): any {
+		return this.testingRef.add({ ...testing });
+	}
+
+	update(id: string, data: any): Promise<void> {
+		return this.testingRef.doc(id).update(data);
+	}
+
+	delete(id: string): Promise<void> {
+		return this.testingRef.doc(id).delete();
 	}
 }
