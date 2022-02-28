@@ -38,7 +38,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-	declarations: [AppComponent, MainnavComponent, SideNavContentComponent],
 	imports: [
 		BrowserAnimationsModule,
 		BrowserModule,

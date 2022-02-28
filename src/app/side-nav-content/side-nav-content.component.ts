@@ -21,10 +21,10 @@ export class SideNavContentComponent implements OnInit {
 	sheetSource = ELEMENT_DATA;
 	charFilter = 'All';
 
-	constructor(private data: NavigationService) {}
+	constructor(private navService: NavigationService) {}
 
 	ngOnInit(): void {
-		this.subscription = this.data.currentMainNav.subscribe(
+		this.subscription = this.navService.currentMainNav.subscribe(
 			nav => (this.nav = nav),
 		);
 	}
@@ -35,7 +35,7 @@ export class SideNavContentComponent implements OnInit {
 
 	changeMainNav(nav: string) {
 		nav = `${nav}Sheet`;
-		this.data.changeMainNav(nav);
+		this.navService.changeMainNav(nav);
 	}
 }
 
