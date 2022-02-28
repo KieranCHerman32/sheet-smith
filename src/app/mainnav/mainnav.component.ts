@@ -1,7 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import {Subscription} from 'rxjs';
-import {NavigationService} from '../services/navigation.service';
-import {environment} from './../../environments/environment';
+import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { NavigationService } from '../services/navigation.service';
+import { environment } from './../../environments/environment';
 
 @Component({
 	selector: 'app-mainnav',
@@ -13,6 +13,8 @@ export class MainnavComponent implements OnInit {
 
 	nav: string = '';
 	subscription!: Subscription;
+
+	testOb: any = {};
 
 	constructor(private data: NavigationService) {}
 

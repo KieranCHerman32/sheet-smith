@@ -1,6 +1,8 @@
-import {NavigationService} from './../services/navigation.service';
-import {Component, OnInit} from '@angular/core';
-import {Subscription} from 'rxjs';
+import { environment } from './../../environments/environment.prod';
+import { NavigationService } from './../services/navigation.service';
+import { Component, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
 	selector: 'app-side-nav-content',
@@ -8,6 +10,9 @@ import {Subscription} from 'rxjs';
 	styleUrls: ['./side-nav-content.component.scss'],
 })
 export class SideNavContentComponent implements OnInit {
+	feature = environment.features;
+	faPlus = faPlus;
+
 	nav: string = '';
 	subscription!: Subscription;
 

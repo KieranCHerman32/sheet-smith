@@ -1,18 +1,22 @@
-<mat-form-field appearance="outline">
-  <mat-label>Filter By TTRPG</mat-label>
-  <mat-select #mode value="All" [(ngModel)]="charFilter">
-    <!-- Implement Service to auto-generate options and dividers -->
-    <mat-option [disabled]="true">Dungeons & Dragons</mat-option>
-    <mat-option value="D&D 5e">5e</mat-option>
-    <mat-option value="D&D 3.5e">3.5e</mat-option>
-    <mat-option [disabled]="true">Powered By The Apocalypse</mat-option>
-    <mat-option value="Apocalypse World">Apocalypse World</mat-option>
-  </mat-select>
-</mat-form-field>
+<ng-container *ngIf="feature.RPGFilter">
+  <mat-form-field appearance="outline">
+    <mat-label>Filter By TTRPG</mat-label>
+    <mat-select #mode value="All" [(ngModel)]="charFilter">
+      <!-- Implement Service to auto-generate options and dividers -->
+      <mat-option [disabled]="true">Dungeons & Dragons</mat-option>
+      <mat-option value="D&D 5e">5e</mat-option>
+      <mat-option value="D&D 3.5e">3.5e</mat-option>
+      <mat-option [disabled]="true">Powered By The Apocalypse</mat-option>
+      <mat-option value="Apocalypse World">Apocalypse World</mat-option>
+    </mat-select>
+  </mat-form-field>
+</ng-container>
 
 <div>
-  <button mat-flat-button (click)="changeMainNav('new')">Create New <span
-          *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character</button>
+  <button mat-flat-button (click)="changeMainNav('new')">
+    <fa-icon [icon]="faPlus"></fa-icon>
+    New <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character
+  </button>
 </div>
 <mat-divider></mat-divider>
 
