@@ -35,6 +35,7 @@ import { AppComponent } from './app.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
 	declarations: [AppComponent, MainnavComponent, SideNavContentComponent],
@@ -64,6 +65,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 		providePerformance(() => getPerformance()),
 		provideRemoteConfig(() => getRemoteConfig()),
 		provideStorage(() => getStorage()),
+  AppRoutingModule,
 	],
 	providers: [
 		ScreenTrackingService,
