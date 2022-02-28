@@ -11,8 +11,10 @@
 </mat-form-field>
 
 <div>
-  <button mat-flat-button (click)="changeMainNav('new')">Create New <span
-          *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character</button>
+  <button mat-flat-button (click)="changeMainNav('new')">
+    <fa-icon [icon]="faPlus"></fa-icon>
+    New <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character
+  </button>
 </div>
 <mat-divider></mat-divider>
 
