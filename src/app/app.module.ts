@@ -35,6 +35,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArmorComponent } from './character-sheet/basic-roleplaying-system/armor/armor.component';
+import { BasicRoleplayingSystemComponent } from './character-sheet/basic-roleplaying-system/basic-roleplaying-system.component';
+import { CharacteristicsComponent } from './character-sheet/basic-roleplaying-system/characteristics/characteristics.component';
+import { DerivedCharacteristicsComponent } from './character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component';
+import { EquipmentComponent } from './character-sheet/basic-roleplaying-system/equipment/equipment.component';
+import { IdentityComponent } from './character-sheet/basic-roleplaying-system/identity/identity.component';
+import { SkillsComponent } from './character-sheet/basic-roleplaying-system/skills/skills.component';
+import { WeaponsShieldsComponent } from './character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
@@ -45,6 +53,14 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MainnavComponent,
 		SideNavContentComponent,
 		CharacterSheetComponent,
+		BasicRoleplayingSystemComponent,
+		IdentityComponent,
+		CharacteristicsComponent,
+		DerivedCharacteristicsComponent,
+		SkillsComponent,
+		WeaponsShieldsComponent,
+		EquipmentComponent,
+		ArmorComponent,
 	],
 	imports: [
 		// AnalyticsModule,
