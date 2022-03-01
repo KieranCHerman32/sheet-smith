@@ -13,7 +13,6 @@ export class DataService {
 	testingRef: AngularFirestoreCollection<Testing>;
 	constructor(private firestore: AngularFirestore) {
 		this.testingRef = firestore.collection(this.dbPath);
-		console.log('testingRef', this.testingRef);
 	}
 
 	getAll(): AngularFirestoreCollection<Testing> {
