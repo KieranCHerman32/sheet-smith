@@ -4,8 +4,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-	{ path: 'charSheet', component: CharacterSheetComponent },
-	{ path: 'brp', component: BasicRoleplayingSystemComponent },
+	{
+		path: 'charSheet',
+		component: CharacterSheetComponent,
+		children: [{ path: 'brp', component: BasicRoleplayingSystemComponent }],
+	},
 ];
 
 @NgModule({
