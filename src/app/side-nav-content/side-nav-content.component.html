@@ -15,7 +15,7 @@
 <mat-divider></mat-divider>
 
 <div>
-  <button mat-flat-button [routerLink]="newCharacter(charFilter)">
+  <button mat-flat-button (click)="newCharacter(charFilter)">
     <fa-icon [icon]="faPlus"></fa-icon>
     New Character
   </button>

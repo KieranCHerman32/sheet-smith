@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { Subscription } from 'rxjs';
 import { environment } from './../../environments/environment.prod';
@@ -18,7 +19,7 @@ export class SideNavContentComponent implements OnInit {
 
 	charFilter = 'brp';
 
-	constructor(private navService: NavigationService) {}
+	constructor(private navService: NavigationService, private router: Router) {}
 
 	ngOnInit(): void {
 		this.setNav();
@@ -36,6 +37,6 @@ export class SideNavContentComponent implements OnInit {
 
 	newCharacter(charType: string) {
 		this.navService.changeNav(charType);
-		return '/charSheet';
+		this.router.navigate(['charSheet']);
 	}
 }
