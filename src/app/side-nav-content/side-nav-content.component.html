@@ -13,33 +13,17 @@
 </ng-container>
 
 <div>
-  <button mat-flat-button (click)="changeMainNav('new')">
+  <button mat-flat-button>
     <fa-icon [icon]="faPlus"></fa-icon>
     New <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character
   </button>
 </div>
+
 <mat-divider></mat-divider>
-
-<table mat-table [dataSource]="sheetSource" class="mat-elevation-z8">
-
-  <ng-container matColumnDef="name">
-    <th mat-header-cell *matHeaderCellDef>Name</th>
-    <td mat-cell *matCellDef="let char"> {{char.name}} </td>
-  </ng-container>
-
-  <ng-container matColumnDef="rpg">
-    <th mat-header-cell *matHeaderCellDef>RPG</th>
-    <td mat-cell *matCellDef="let char"> {{char.rpg}} </td>
-  </ng-container>
-
-  <!-- TODO: Auto-populate recently used character sheets -->
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
 
 <mat-divider></mat-divider>
 <div>
-  <button mat-flat-button (click)="changeMainNav('viewAll')">View All <span
+  <button mat-flat-button>View All <span
           *ngIf="charFilter !== 'All'">{{charFilter}}</span>
     Characters</button>
 </div>

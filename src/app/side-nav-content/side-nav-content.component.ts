@@ -18,13 +18,12 @@ export class SideNavContentComponent implements OnInit {
 
 	displayedColumns: string[] = ['name', 'rpg'];
 
-	sheetSource = ELEMENT_DATA;
 	charFilter = 'All';
 
-	constructor(private data: NavigationService) {}
+	constructor(private navService: NavigationService) {}
 
 	ngOnInit(): void {
-		this.subscription = this.data.currentMainNav.subscribe(
+		this.subscription = this.navService.currentMainNav.subscribe(
 			nav => (this.nav = nav),
 		);
 	}
@@ -32,25 +31,4 @@ export class SideNavContentComponent implements OnInit {
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
 	}
-
-	changeMainNav(nav: string) {
-		nav = `${nav}Sheet`;
-		this.data.changeMainNav(nav);
-	}
 }
-
-export interface sheetData {
-	name: string;
-	rpg: string;
-}
-
-const ELEMENT_DATA: sheetData[] = [
-	{
-		name: 'Ward',
-		rpg: 'D&D 3.5e',
-	},
-	{
-		name: 'Sima',
-		rpg: 'D&D 3.5e',
-	},
-];
