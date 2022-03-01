@@ -31,17 +31,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { environment } from '../environments/environment';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainnavComponent } from './mainnav/mainnav.component';
-import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 
 @NgModule({
-	declarations: [
-		AppComponent,
-		MainnavComponent,
-		SideNavContentComponent,
-	],
 	imports: [
 		BrowserAnimationsModule,
 		BrowserModule,
@@ -68,6 +63,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		providePerformance(() => getPerformance()),
 		provideRemoteConfig(() => getRemoteConfig()),
 		provideStorage(() => getStorage()),
+		AppRoutingModule,
 	],
 	providers: [
 		ScreenTrackingService,
