@@ -35,8 +35,17 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
+import { MainnavComponent } from './mainnav/mainnav.component';
+import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 
 @NgModule({
+	declarations: [
+		AppComponent,
+		MainnavComponent,
+		SideNavContentComponent,
+		CharacterSheetComponent,
+	],
 	imports: [
 		// AnalyticsModule,
 		AngularFireModule.initializeApp(environment.firebase),
