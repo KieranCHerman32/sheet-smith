@@ -12,18 +12,20 @@
   </mat-form-field>
 </ng-container>
 
+<mat-divider></mat-divider>
+
 <div>
-  <button mat-flat-button>
+  <button mat-flat-button [routerLink]="newCharacter(charFilter)">
     <fa-icon [icon]="faPlus"></fa-icon>
-    New <span *ngIf="charFilter !== 'All'">{{charFilter}}</span> Character
+    New Character
   </button>
 </div>
 
 <mat-divider></mat-divider>
+<mat-divider></mat-divider>
+
+<div>
+  <button mat-flat-button>View All Characters</button>
+</div>
 
 <mat-divider></mat-divider>
-<div>
-  <button mat-flat-button>View All <span
-          *ngIf="charFilter !== 'All'">{{charFilter}}</span>
-    Characters</button>
-</div>

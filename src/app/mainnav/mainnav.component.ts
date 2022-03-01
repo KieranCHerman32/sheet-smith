@@ -19,9 +19,7 @@ export class MainnavComponent implements OnInit {
 	constructor(private data: NavigationService) {}
 
 	ngOnInit() {
-		this.subscription = this.data.currentMainNav.subscribe(
-			nav => (this.nav = nav),
-		);
+		this.subscription = this.data.currentNav.subscribe(nav => (this.nav = nav));
 	}
 
 	ngOnDestroy() {
