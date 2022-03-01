@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { NavigationService } from '../services/navigation.service';
 
@@ -12,17 +12,25 @@ export class CharacterSheetComponent implements OnInit {
 	nav: string = '/';
 	subscription!: Subscription;
 
-	constructor(private navService: NavigationService, private router: Router) {}
+	constructor(
+		private navService: NavigationService,
+		private router: Router,
+		private route: ActivatedRoute,
+	) {}
 
 	ngOnInit(): void {
-		this.subscription = this.navService.currentNav.subscribe(
-			nav => (this.nav = nav),
-		);
-
+		console.log('Entering CharacterSheetComponent');
+		this.setNav();
 		this.routeTo(this.nav);
 	}
 
+	setNav() {
+		this.subscription = this.navService.currentNav.subscribe(
+			nav => (this.nav = nav),
+		);
+	}
+
 	routeTo(nav: string) {
-		this.router.navigate([`${nav}`]);
+		this.router.navigate([`${nav}`], { relativeTo: this.route });
 	}
 }

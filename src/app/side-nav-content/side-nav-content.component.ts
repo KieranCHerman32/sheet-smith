@@ -21,13 +21,17 @@ export class SideNavContentComponent implements OnInit {
 	constructor(private navService: NavigationService) {}
 
 	ngOnInit(): void {
-		this.subscription = this.navService.currentNav.subscribe(
-			nav => (this.nav = nav),
-		);
+		this.setNav();
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
+	}
+
+	setNav() {
+		this.subscription = this.navService.currentNav.subscribe(
+			nav => (this.nav = nav),
+		);
 	}
 
 	newCharacter(charType: string) {
