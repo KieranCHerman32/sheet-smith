@@ -4,7 +4,7 @@
 
 export const environment = {
 	production: false,
-	ssVer: 'dev',
+	ssVer: 'BRP.dev',
 	features: {
 		RPGFilter: false,
 	},
