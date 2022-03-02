@@ -16,15 +16,19 @@ export class MainnavComponent implements OnInit {
 
 	testOb: any = {};
 
-	constructor(private data: NavigationService) {}
+	constructor(private navService: NavigationService) {}
 
 	ngOnInit() {
-		this.subscription = this.data.currentMainNav.subscribe(
-			nav => (this.nav = nav),
-		);
+		this.getNav();
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
+	}
+
+	getNav() {
+		this.subscription = this.navService.currentNav.subscribe(
+			nav => (this.nav = nav),
+		);
 	}
 }

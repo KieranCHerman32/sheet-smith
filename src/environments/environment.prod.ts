@@ -1,6 +1,6 @@
 export const environment = {
 	production: true,
-	ssVer: 'dev',
+	ssVer: 'BRP.prod',
 	features: {
 		RPGFilter: false,
 	},

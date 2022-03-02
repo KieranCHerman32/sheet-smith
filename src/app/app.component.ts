@@ -38,7 +38,6 @@ export class AppComponent implements OnInit {
 			)
 			.subscribe(data => {
 				this.testData = data;
-				console.log(this.testData);
 			});
 	}
 

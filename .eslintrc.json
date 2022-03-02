@@ -16,12 +16,13 @@
     "@typescript-eslint"
   ],
   "rules": {
-    "no-useless-constructor": "off",
+    "array-bracket-spacing": "off",
     "new-cap": "off",
-    "no-undef": "off",
     "no-return-assign": "off",
+    "no-undef": "off",
     "no-unused-vars": "off",
+    "no-useless-constructor": "off",
     "object-curly-spacing": "off",
-    "array-bracket-spacing": "off"
+    "camelcase": "warn"
   }
 }

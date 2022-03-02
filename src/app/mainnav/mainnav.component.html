@@ -8,11 +8,10 @@
   <span class="example-spacer"></span>
 </mat-toolbar>
 <mat-drawer-container class="example-container" autosize>
-  <mat-drawer #drawer class="example-sidenav" mode="side">
+  <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="true">
     <app-side-nav-content></app-side-nav-content>
   </mat-drawer>
   <div class="container">
-    {{nav}}
+    <router-outlet></router-outlet>
   </div>
-  <router-outlet></router-outlet>
 </mat-drawer-container>
