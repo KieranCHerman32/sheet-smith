@@ -82,7 +82,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MatToolbarModule,
 		provideAnalytics(() => getAnalytics()),
 		provideAuth(() => getAuth()),
-		provideDatabase(() => getDatabase()),
+		provideDatabase(() => getDatabase(initializeApp(environment.firebase))),
 		provideFirebaseApp(() => initializeApp(environment.firebase)),
 		provideFirestore(() => getFirestore()),
 		provideFunctions(() => getFunctions()),
