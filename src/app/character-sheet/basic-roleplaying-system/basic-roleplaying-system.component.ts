@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { map } from 'rxjs/operators';
 import { NavigationService } from 'src/app/services/navigation.service';
 import { DataService } from './../../services/data.service';
 
@@ -28,7 +27,6 @@ export class BasicRoleplayingSystemComponent implements OnInit {
 	ngOnInit(): void {
 		console.log('Entering BasicRoleplayingSystemComponent');
 		this.getNav();
-		this.fetchSheetData();
 	}
 
 	ngOnDestroy() {
@@ -39,14 +37,5 @@ export class BasicRoleplayingSystemComponent implements OnInit {
 		this.subscription = this.navService.currentNav.subscribe(
 			nav => (this.nav = nav),
 		);
-	}
-
-	fetchSheetData() {
-		this.dataService.dbPath = '/charSheets';
-		this.sheetData = this.dataService
-			.getDocument('brp')
-			.valueChanges()
-			.subscribe(res => (this.sheetData = res));
-		console.log(this.sheetData);
 	}
 }
