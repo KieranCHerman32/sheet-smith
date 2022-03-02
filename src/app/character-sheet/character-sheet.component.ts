@@ -20,7 +20,7 @@ export class CharacterSheetComponent implements OnInit {
 		private dataService: DataService,
 	) {}
 
-	ngOnInit(): void {
+	async ngOnInit(): Promise<void> {
 		console.log('Entering CharacterSheetComponent');
 		this.getNav();
 		this.testData();
@@ -42,6 +42,6 @@ export class CharacterSheetComponent implements OnInit {
 	}
 
 	async testData() {
-		return this.dataService.getCharSheetData();
+		return this.dataService.dbWrite();
 	}
 }
