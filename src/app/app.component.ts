@@ -10,11 +10,7 @@ import { Testing } from './types/testing';
 export class AppComponent implements OnInit {
 	title = 'sheet-smith';
 
-	testData?: Testing[];
-	currentTestData?: Testing;
-	currentIndex: number = 1;
-
-	constructor(private dataService: DataService) {}
+	constructor() {}
 
 	ngOnInit(): void {}
 }
