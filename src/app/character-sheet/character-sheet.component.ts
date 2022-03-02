@@ -9,7 +9,7 @@ import { NavigationService } from '../services/navigation.service';
 	styleUrls: ['./character-sheet.component.scss'],
 })
 export class CharacterSheetComponent implements OnInit {
-	nav: string = '/';
+	nav: string = '';
 	subscription!: Subscription;
 
 	constructor(
@@ -20,11 +20,15 @@ export class CharacterSheetComponent implements OnInit {
 
 	ngOnInit(): void {
 		console.log('Entering CharacterSheetComponent');
-		this.setNav();
+		this.getNav();
 		this.routeTo(this.nav);
 	}
 
-	setNav() {
+	ngOnDestroy() {
+		this.subscription.unsubscribe();
+	}
+
+	getNav() {
 		this.subscription = this.navService.currentNav.subscribe(
 			nav => (this.nav = nav),
 		);

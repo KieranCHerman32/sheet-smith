@@ -10,7 +10,11 @@ export class NavigationService {
 
 	constructor() {}
 
-	changeNav(nav: string) {
+	getNav() {
+		return this.currentNav;
+	}
+
+	updateNav(nav: string) {
 		this.navSource.next(nav);
 	}
 }

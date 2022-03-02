@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { Subscription } from 'rxjs';
 import { environment } from './../../environments/environment.prod';
@@ -19,24 +19,34 @@ export class SideNavContentComponent implements OnInit {
 
 	charFilter = 'brp';
 
-	constructor(private navService: NavigationService, private router: Router) {}
+	constructor(
+		private navService: NavigationService,
+		private router: Router,
+		private route: ActivatedRoute,
+	) {}
 
 	ngOnInit(): void {
-		this.setNav();
+		this.getNav();
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
 	}
 
-	setNav() {
+	getNav() {
 		this.subscription = this.navService.currentNav.subscribe(
 			nav => (this.nav = nav),
 		);
 	}
 
+	routeTo(route: string) {
+		this.navService.updateNav(route);
+		this.router.navigate([`${route}`]);
+	}
+
 	newCharacter(charType: string) {
-		this.navService.changeNav(charType);
-		this.router.navigate(['charSheet']);
+		this.navService.updateNav(charType);
+		this.getNav();
+		this.router.navigate(['charSheet'], { relativeTo: this.route });
 	}
 }
