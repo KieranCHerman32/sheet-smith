@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { NavigationService } from '../services/navigation.service';
+import { DataService } from './../services/data.service';
 
 @Component({
 	selector: 'app-character-sheet',
@@ -14,13 +15,15 @@ export class CharacterSheetComponent implements OnInit {
 
 	constructor(
 		private navService: NavigationService,
-		private router: Router,
 		private route: ActivatedRoute,
+		private router: Router,
+		private dataService: DataService,
 	) {}
 
 	ngOnInit(): void {
 		console.log('Entering CharacterSheetComponent');
 		this.getNav();
+		this.testData();
 		this.routeTo(this.nav);
 	}
 
@@ -36,5 +39,9 @@ export class CharacterSheetComponent implements OnInit {
 
 	routeTo(nav: string) {
 		this.router.navigate([`${nav}`], { relativeTo: this.route });
+	}
+
+	async testData() {
+		return this.dataService.getCharSheetData();
 	}
 }
