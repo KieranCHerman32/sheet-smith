@@ -4,6 +4,7 @@ import {
 	UserTrackingService,
 } from '@angular/fire/analytics';
 import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
@@ -50,6 +51,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 	],
 	imports: [
 		AngularFireModule.initializeApp(environment.firebase),
+		AngularFireAnalyticsModule,
 		AngularFirestoreModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
