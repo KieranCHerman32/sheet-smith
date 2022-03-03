@@ -33,6 +33,7 @@ import { WeaponsShieldsComponent } from './character-sheet/basic-roleplaying-sys
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
+import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 
 @NgModule({
 	declarations: [
@@ -48,6 +49,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		WeaponsShieldsComponent,
 		EquipmentComponent,
 		ArmorComponent,
+  RpgSelectionComponent,
 	],
 	imports: [
 		AngularFireModule.initializeApp(environment.firebase),
