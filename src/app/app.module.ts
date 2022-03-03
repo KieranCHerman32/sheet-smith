@@ -32,28 +32,28 @@ import { SkillsComponent } from './character-sheet/basic-roleplaying-system/skil
 import { WeaponsShieldsComponent } from './character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
-import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
+import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		MainnavComponent,
-		SideNavContentComponent,
-		CharacterSheetComponent,
+		ArmorComponent,
 		BasicRoleplayingSystemComponent,
-		IdentityComponent,
 		CharacteristicsComponent,
+		CharacterSheetComponent,
 		DerivedCharacteristicsComponent,
+		EquipmentComponent,
+		IdentityComponent,
+		MainnavComponent,
+		RpgSelectionComponent,
+		SideNavContentComponent,
 		SkillsComponent,
 		WeaponsShieldsComponent,
-		EquipmentComponent,
-		ArmorComponent,
-  RpgSelectionComponent,
 	],
 	imports: [
-		AngularFireModule.initializeApp(environment.firebase),
 		AngularFireAnalyticsModule,
+		AngularFireModule.initializeApp(environment.firebase),
 		AngularFirestoreModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
@@ -70,12 +70,7 @@ import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 		MatTableModule,
 		MatToolbarModule,
 	],
-	providers: [
-		ScreenTrackingService,
-		ScreenTrackingService,
-		UserTrackingService,
-		UserTrackingService,
-	],
+	providers: [ScreenTrackingService, UserTrackingService],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}
