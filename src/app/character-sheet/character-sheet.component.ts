@@ -23,7 +23,7 @@ export class CharacterSheetComponent implements OnInit {
 	async ngOnInit(): Promise<void> {
 		console.log('Entering CharacterSheetComponent');
 		this.getNav();
-		this.testData();
+		this.testData('test32');
 		this.routeTo(this.nav);
 	}
 
@@ -41,7 +41,7 @@ export class CharacterSheetComponent implements OnInit {
 		this.router.navigate([`${nav}`], { relativeTo: this.route });
 	}
 
-	async testData() {
-		return this.dataService.dbWrite();
+	async testData(path: string) {
+		return this.dataService.dbDelete(path);
 	}
 }

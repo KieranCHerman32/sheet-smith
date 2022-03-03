@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { get, getDatabase, push, ref, set } from '@angular/fire/database';
-import { child, onValue, update } from 'firebase/database';
+import { child, onValue, remove, update } from 'firebase/database';
 
 @Injectable({
 	providedIn: 'root',
@@ -11,9 +11,9 @@ export class DataService {
 
 	constructor() {}
 
-	// Basic CRUD Functions // Move to own Service?
+	// Basic CRUD Functions //
 
-	// CREATE //
+	// CREATE // UPDATE //
 	// -- Non-Destructive Update -- //
 	dbWrite(path: string = 'testData', content: any = { name: `${new Date()}` }) {
 		const newData: any = {};
@@ -66,7 +66,7 @@ export class DataService {
 				if (snapshot.exists()) {
 					console.log(snapshot.val());
 				} else {
-					console.log('No Data for given path');
+					console.error(`No Data found at path /${path}`);
 				}
 			})
 			.catch(error => {
@@ -74,17 +74,14 @@ export class DataService {
 			});
 	}
 
-	// UPDATE //
-
 	// DELETE //
-
-	// Move to new service? //
-	getCharSheetData(sheetType: string = '') {
-		let data = ref(this.db, `/charSheets/${sheetType}`);
-		onValue(data, snapshot => {
-			data = snapshot.val();
-			console.log(data);
-			return data;
-		});
+	dbDelete(path: string = '') {
+		remove(child(this.dbRef, `/${path}`))
+			.then(() => {
+				console.info(`Data at path /${path} successfully deleted`);
+			})
+			.catch(error => {
+				console.error(error);
+			});
 	}
 }
