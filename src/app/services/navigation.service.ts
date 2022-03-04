@@ -1,20 +1,25 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Injectable({
 	providedIn: 'root',
 })
 export class NavigationService {
-	private navSource = new BehaviorSubject('/');
-	currentNav = this.navSource.asObservable();
+	constructor(private router: Router, private route: ActivatedRoute) {}
 
-	constructor() {}
-
-	getNav() {
-		return this.currentNav;
+	to(path: string, relative: boolean = true) {
+		if (relative === false) {
+			this.router.navigate([`/${path}`], { relativeTo: this.route });
+		} else {
+			this.router.navigate([`/${path}`]);
+		}
 	}
 
-	updateNav(nav: string) {
-		this.navSource.next(nav);
+	back(relative: boolean = true) {
+		if (relative === false) {
+			this.router.navigate(['..']);
+		} else {
+			this.router.navigate(['']);
+		}
 	}
 }

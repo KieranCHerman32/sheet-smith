@@ -14,39 +14,15 @@ export class SideNavContentComponent implements OnInit {
 	feature = environment.features;
 	faPlus = faPlus;
 
-	nav: string = '';
-	subscription!: Subscription;
-
 	charFilter = 'brp';
 
-	constructor(
-		private navService: NavigationService,
-		private router: Router,
-		private route: ActivatedRoute,
-	) {}
+	constructor(private nav: NavigationService) {}
 
-	ngOnInit(): void {
-		this.getNav();
-	}
+	ngOnInit(): void {}
 
-	ngOnDestroy() {
-		this.subscription.unsubscribe();
-	}
-
-	getNav() {
-		this.subscription = this.navService.currentNav.subscribe(
-			nav => (this.nav = nav),
-		);
-	}
-
-	routeTo(route: string) {
-		this.navService.updateNav(route);
-		this.router.navigate([`${route}`]);
-	}
+	ngOnDestroy() {}
 
 	newCharacter(charType: string) {
-		this.navService.updateNav(charType);
-		this.getNav();
-		this.router.navigate(['charSheet'], { relativeTo: this.route });
+		this.nav.to(charType, false);
 	}
 }
