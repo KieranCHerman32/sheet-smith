@@ -16,7 +16,7 @@ export class SideNavContentComponent implements OnInit {
 
 	charFilter = 'brp';
 
-	constructor(private nav: NavigationService) {}
+	constructor(public nav: NavigationService) {}
 
 	ngOnInit(): void {}
 

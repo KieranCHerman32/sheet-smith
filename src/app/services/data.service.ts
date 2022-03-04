@@ -64,10 +64,10 @@ export class DataService {
 		get(child(this.dbRef, `/${path}`))
 			.then(snapshot => {
 				if (snapshot.exists()) {
-					console.log(snapshot.val());
-				} else {
-					console.error(`No Data found at path /${path}`);
+					return snapshot.val();
 				}
+
+				console.error(`No Data found at path /${path}`);
 			})
 			.catch(error => {
 				console.error(error);

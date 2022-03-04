@@ -6,6 +6,10 @@ import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 
 const routes: Routes = [
 	{
+		path: 'rpg-select',
+		component: RpgSelectionComponent,
+	},
+	{
 		path: 'char-sheet',
 		component: CharacterSheetComponent,
 		children: [
@@ -16,12 +20,8 @@ const routes: Routes = [
 		],
 	},
 	{
-		path: 'rpg-select',
-		component: RpgSelectionComponent,
-	},
-	{
 		path: '',
-		redirectTo: '/rpg-select',
+		redirectTo: 'rpg-select',
 		pathMatch: 'full',
 	},
 ];

@@ -10,11 +10,7 @@ import { environment } from './../../environments/environment';
 export class MainnavComponent implements OnInit {
 	ssVer: string = environment.ssVer;
 
-	nav: string = '';
-
-	testOb: any = {};
-
-	constructor(private navService: NavigationService) {}
+	constructor() {}
 
 	ngOnInit() {}
 
