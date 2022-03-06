@@ -1,3 +1,4 @@
+import { DataService } from './../services/data.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 	styleUrls: ['./rpg-selection.component.scss'],
 })
 export class RpgSelectionComponent implements OnInit {
-	constructor() {}
+	sheetData: any = [];
+	constructor(private dataService: DataService) {}
 
 	ngOnInit(): void {
-		console.log('Entering RpgSelectionComponent');
+		this.fetchSheetData();
+	}
+
+	async fetchSheetData() {
+		this.sheetData = [];
+		this.dataService.rtGet('charSheets').forEach(sheet => {
+			this.sheetData = [...sheet];
+		});
 	}
 }
