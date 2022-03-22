@@ -8,6 +8,7 @@ import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -32,26 +33,28 @@ import { SkillsComponent } from './character-sheet/basic-roleplaying-system/skil
 import { WeaponsShieldsComponent } from './character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
+import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		MainnavComponent,
-		SideNavContentComponent,
-		CharacterSheetComponent,
+		ArmorComponent,
 		BasicRoleplayingSystemComponent,
-		IdentityComponent,
 		CharacteristicsComponent,
+		CharacterSheetComponent,
 		DerivedCharacteristicsComponent,
+		EquipmentComponent,
+		IdentityComponent,
+		MainnavComponent,
+		RpgSelectionComponent,
+		SideNavContentComponent,
 		SkillsComponent,
 		WeaponsShieldsComponent,
-		EquipmentComponent,
-		ArmorComponent,
 	],
 	imports: [
-		AngularFireModule.initializeApp(environment.firebase),
 		AngularFireAnalyticsModule,
+		AngularFireModule.initializeApp(environment.firebase),
 		AngularFirestoreModule,
 		AppRoutingModule,
 		BrowserAnimationsModule,
@@ -59,6 +62,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		FontAwesomeModule,
 		FormsModule,
 		MatButtonModule,
+		MatCardModule,
 		MatDividerModule,
 		MatExpansionModule,
 		MatFormFieldModule,
@@ -68,12 +72,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MatTableModule,
 		MatToolbarModule,
 	],
-	providers: [
-		ScreenTrackingService,
-		ScreenTrackingService,
-		UserTrackingService,
-		UserTrackingService,
-	],
+	providers: [ScreenTrackingService, UserTrackingService],
 	bootstrap: [AppComponent],
 })
 export class AppModule {}

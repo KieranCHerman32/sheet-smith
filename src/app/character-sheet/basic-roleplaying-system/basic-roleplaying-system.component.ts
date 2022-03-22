@@ -26,16 +26,9 @@ export class BasicRoleplayingSystemComponent implements OnInit {
 
 	ngOnInit(): void {
 		console.log('Entering BasicRoleplayingSystemComponent');
-		this.getNav();
 	}
 
 	ngOnDestroy() {
 		this.subscription.unsubscribe();
-	}
-
-	getNav() {
-		this.subscription = this.navService.currentNav.subscribe(
-			nav => (this.nav = nav),
-		);
 	}
 }
