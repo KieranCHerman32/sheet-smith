@@ -1,0 +1,203 @@
+Results of cspell linter (version 5.19.2)
+See documentation on https://megalinter.github.io/descriptors/spell_cspell/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+ 1/88 ./.angulardoc.json ... 1/88 ./.angulardoc.json 708.06ms
+ 2/88 ./.browserslistrc ... 2/88 ./.browserslistrc 60.94ms X
+/github/workspace/.browserslistrc:9:9 - Unknown word (browserslist)
+ 3/88 ./.cspell.json ... 3/88 ./.cspell.json 11.19ms
+ 4/88 ./.editorconfig ... 4/88 ./.editorconfig 8.71ms
+ 5/88 ./.eslintrc.json ... 5/88 ./.eslintrc.json 13.12ms X
+/github/workspace/.eslintrc.json:26:6 - Unknown word (camelcase)
+ 6/88 ./.firebaserc ... 6/88 ./.firebaserc 10.01ms
+ 7/88 ./.github/workflows/mega-linter.yml ... 7/88 ./.github/workflows/mega-linter.yml 55.28ms X
+/github/workspace/.github/workflows/mega-linter.yml:79:15 - Unknown word (stefanzweifel)
+ 8/88 ./.gitignore ... 8/88 ./.gitignore 26.58ms X
+/github/workspace/.gitignore:7:18 - Unknown word (Bazel)
+/github/workspace/.gitignore:8:2 - Unknown word (bazel)
+/github/workspace/.gitignore:19:2 - Unknown word (classpath)
+/github/workspace/.gitignore:37:2 - Unknown word (libpeerconnection)
+/github/workspace/.gitignore:40:1 - Unknown word (testem)
+/github/workspace/.gitignore:50:2 - Unknown word (runtimeconfig)
+ 9/88 ./.jscpd.json ... 9/88 ./.jscpd.json 7.22ms X
+/github/workspace/.jscpd.json:8:10 - Unknown word (venv)
+10/88 ./.mega-linter.yml ...10/88 ./.mega-linter.yml 18.66ms
+11/88 ./README.md ...11/88 ./README.md 65.19ms
+12/88 ./angular.json ...12/88 ./angular.json 36.74ms X
+/github/workspace/angular.json:21:32 - Unknown word (devkit)
+/github/workspace/angular.json:72:32 - Unknown word (devkit)
+/github/workspace/angular.json:84:32 - Unknown word (devkit)
+/github/workspace/angular.json:90:32 - Unknown word (devkit)
+/github/workspace/angular.json:110:14 - Unknown word (prerender)
+13/88 ./firebase-rtdb-backup.json ...13/88 ./firebase-rtdb-backup.json 11.02ms
+14/88 ./firebase.json ...14/88 ./firebase.json 14.17ms X
+/github/workspace/firebase.json:20:25 - Unknown word (ngsw)
+/github/workspace/firebase.json:20:40 - Unknown word (ngsw)
+15/88 ./karma.conf.js ...15/88 ./karma.conf.js 45.48ms X
+/github/workspace/karma.conf.js:29:7 - Unknown word (subdir)
+16/88 ./package.json ...16/88 ./package.json 32.47ms X
+/github/workspace/package.json:24:7 - Unknown word (fortawesome)
+/github/workspace/package.json:24:27 - Unknown word (fontawesome)
+/github/workspace/package.json:25:7 - Unknown word (fortawesome)
+/github/workspace/package.json:25:19 - Unknown word (fontawesome)
+/github/workspace/package.json:26:7 - Unknown word (fortawesome)
+/github/workspace/package.json:27:7 - Unknown word (fortawesome)
+/github/workspace/package.json:28:7 - Unknown word (fortawesome)
+/github/workspace/package.json:34:6 - Unknown word (globalthis)
+/github/workspace/package.json:40:6 - Unknown word (rxfire)
+/github/workspace/package.json:46:15 - Unknown word (devkit)
+17/88 ./src/app/app-routing.module.ts ...17/88 ./src/app/app-routing.module.ts 13.11ms
+18/88 ./src/app/app.component.html ...18/88 ./src/app/app.component.html 32.52ms X
+/github/workspace/src/app/app.component.html:1:6 - Unknown word (mainnav)
+/github/workspace/src/app/app.component.html:1:20 - Unknown word (mainnav)
+19/88 ./src/app/app.component.scss ...19/88 ./src/app/app.component.scss 3.07ms
+20/88 ./src/app/app.component.spec.ts ...20/88 ./src/app/app.component.spec.ts 12.27ms
+21/88 ./src/app/app.component.ts ...21/88 ./src/app/app.component.ts 8.76ms
+22/88 ./src/app/app.module.ts ...22/88 ./src/app/app.module.ts 47.18ms X
+/github/workspace/src/app/app.module.ts:8:17 - Unknown word (Firestore)
+/github/workspace/src/app/app.module.ts:8:62 - Unknown word (firestore)
+/github/workspace/src/app/app.module.ts:22:37 - Unknown word (fortawesome)
+/github/workspace/src/app/app.module.ts:22:57 - Unknown word (fontawesome)
+/github/workspace/src/app/app.module.ts:35:10 - Unknown word (Mainnav)
+/github/workspace/src/app/app.module.ts:35:37 - Unknown word (mainnav)
+/github/workspace/src/app/app.module.ts:35:45 - Unknown word (mainnav)
+/github/workspace/src/app/app.module.ts:49:3 - Unknown word (Mainnav)
+/github/workspace/src/app/app.module.ts:58:10 - Unknown word (Firestore)
+23/88 ./src/app/brp-data.service.spec.ts ...23/88 ./src/app/brp-data.service.spec.ts 6.36ms
+24/88 ./src/app/brp-data.service.ts ...24/88 ./src/app/brp-data.service.ts 5.39ms
+25/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.html ...25/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.html 4.15ms
+26/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.scss ...26/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.scss 5.12ms
+27/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts ...27/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts 6.97ms
+28/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.ts ...28/88 ./src/app/character-sheet/basic-roleplaying-system/armor/armor.component.ts 6.03ms
+29/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.html ...29/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.html 5.72ms
+30/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.scss ...30/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.scss 3.05ms
+31/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts ...31/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts 7.59ms
+32/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts ...32/88 ./src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts 16.90ms
+33/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.html ...33/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.html 5.51ms
+34/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.scss ...34/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.scss 2.63ms
+35/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts ...35/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts 20.85ms
+36/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.ts ...36/88 ./src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.ts 12.27ms
+37/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html ...37/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html 3.54ms
+38/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss ...38/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss 6.91ms
+39/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts ...39/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts 13.92ms
+40/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts ...40/88 ./src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts 6.46ms
+41/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.html ...41/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.html 3.45ms
+42/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.scss ...42/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.scss 3.32ms
+43/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts ...43/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts 10.12ms
+44/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.ts ...44/88 ./src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.ts 18.29ms
+45/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.html ...45/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.html 3.56ms
+46/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.scss ...46/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.scss 3.69ms
+47/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts ...47/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts 6.85ms
+48/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.ts ...48/88 ./src/app/character-sheet/basic-roleplaying-system/identity/identity.component.ts 5.67ms
+49/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.html ...49/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.html 4.23ms
+50/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.scss ...50/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.scss 6.21ms
+51/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts ...51/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts 7.05ms
+52/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.ts ...52/88 ./src/app/character-sheet/basic-roleplaying-system/skills/skills.component.ts 5.64ms
+53/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.html ...53/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.html 3.35ms
+54/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss ...54/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss 2.44ms
+55/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts ...55/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts 6.59ms
+56/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts ...56/88 ./src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts 9.79ms
+57/88 ./src/app/character-sheet/character-sheet.component.html ...57/88 ./src/app/character-sheet/character-sheet.component.html 3.76ms
+58/88 ./src/app/character-sheet/character-sheet.component.scss ...58/88 ./src/app/character-sheet/character-sheet.component.scss 2.47ms
+59/88 ./src/app/character-sheet/character-sheet.component.spec.ts ...59/88 ./src/app/character-sheet/character-sheet.component.spec.ts 8.37ms
+60/88 ./src/app/character-sheet/character-sheet.component.ts ...60/88 ./src/app/character-sheet/character-sheet.component.ts 6.53ms
+61/88 ./src/app/mainnav/mainnav.component.html ...61/88 ./src/app/mainnav/mainnav.component.html 11.41ms
+62/88 ./src/app/mainnav/mainnav.component.scss ...62/88 ./src/app/mainnav/mainnav.component.scss 16.50ms X
+/github/workspace/src/app/mainnav/mainnav.component.scss:6:10 - Unknown word (sidenav)
+/github/workspace/src/app/mainnav/mainnav.component.scss:13:10 - Unknown word (sidenav)
+63/88 ./src/app/mainnav/mainnav.component.spec.ts ...63/88 ./src/app/mainnav/mainnav.component.spec.ts 10.33ms X
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:3:10 - Unknown word (Mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:3:37 - Unknown word (mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:5:11 - Unknown word (Mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:6:18 - Unknown word (Mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:7:33 - Unknown word (Mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.spec.ts:11:23 - Unknown word (Mainnav)
+64/88 ./src/app/mainnav/mainnav.component.ts ...64/88 ./src/app/mainnav/mainnav.component.ts 10.59ms X
+/github/workspace/src/app/mainnav/mainnav.component.ts:6:17 - Unknown word (mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.ts:7:18 - Unknown word (mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.ts:8:17 - Unknown word (mainnav)
+/github/workspace/src/app/mainnav/mainnav.component.ts:10:14 - Unknown word (Mainnav)
+65/88 ./src/app/rpg-selection/rpg-selection.component.html ...65/88 ./src/app/rpg-selection/rpg-selection.component.html 13.86ms
+66/88 ./src/app/rpg-selection/rpg-selection.component.scss ...66/88 ./src/app/rpg-selection/rpg-selection.component.scss 6.22ms
+67/88 ./src/app/rpg-selection/rpg-selection.component.spec.ts ...67/88 ./src/app/rpg-selection/rpg-selection.component.spec.ts 7.50ms
+68/88 ./src/app/rpg-selection/rpg-selection.component.ts ...68/88 ./src/app/rpg-selection/rpg-selection.component.ts 7.59ms
+69/88 ./src/app/services/data.service.spec.ts ...69/88 ./src/app/services/data.service.spec.ts 6.68ms
+70/88 ./src/app/services/data.service.ts ...70/88 ./src/app/services/data.service.ts 22.62ms
+71/88 ./src/app/services/navigation.service.spec.ts ...71/88 ./src/app/services/navigation.service.spec.ts 11.21ms
+72/88 ./src/app/services/navigation.service.ts ...72/88 ./src/app/services/navigation.service.ts 14.96ms
+73/88 ./src/app/side-nav-content/side-nav-content.component.html ...73/88 ./src/app/side-nav-content/side-nav-content.component.html 14.56ms X
+/github/workspace/src/app/side-nav-content/side-nav-content.component.html:3:26 - Unknown word (TTRPG)
+74/88 ./src/app/side-nav-content/side-nav-content.component.scss ...74/88 ./src/app/side-nav-content/side-nav-content.component.scss 4.45ms
+75/88 ./src/app/side-nav-content/side-nav-content.component.spec.ts ...75/88 ./src/app/side-nav-content/side-nav-content.component.spec.ts 7.61ms
+76/88 ./src/app/side-nav-content/side-nav-content.component.ts ...76/88 ./src/app/side-nav-content/side-nav-content.component.ts 15.56ms X
+/github/workspace/src/app/side-nav-content/side-nav-content.component.ts:3:26 - Unknown word (fortawesome)
+77/88 ./src/app/types/testing.ts ...77/88 ./src/app/types/testing.ts 3.52ms
+78/88 ./src/assets/.gitkeep ...78/88 ./src/assets/.gitkeep 2.36ms
+79/88 ./src/environments/environment.prod.ts ...79/88 ./src/environments/environment.prod.ts 24.91ms X
+/github/workspace/src/environments/environment.prod.ts:9:28 - Unknown word (firebaseapp)
+/github/workspace/src/environments/environment.prod.ts:12:31 - Unknown word (appspot)
+/github/workspace/src/environments/environment.prod.ts:15:24 - Unknown word (BGQY)
+80/88 ./src/environments/environment.ts ...80/88 ./src/environments/environment.ts 21.88ms X
+/github/workspace/src/environments/environment.ts:13:28 - Unknown word (firebaseapp)
+/github/workspace/src/environments/environment.ts:16:31 - Unknown word (appspot)
+/github/workspace/src/environments/environment.ts:19:24 - Unknown word (BGQY)
+81/88 ./src/index.html ...81/88 ./src/index.html 8.29ms
+82/88 ./src/main.ts ...82/88 ./src/main.ts 5.65ms
+83/88 ./src/polyfills.ts ...83/88 ./src/polyfills.ts 27.65ms
+84/88 ./src/styles.scss ...84/88 ./src/styles.scss 7.87ms
+85/88 ./src/test.ts ...85/88 ./src/test.ts 11.45ms
+86/88 ./tsconfig.app.json ...86/88 ./tsconfig.app.json 5.96ms
+87/88 ./tsconfig.json ...87/88 ./tsconfig.json 9.55ms
+88/88 ./tsconfig.spec.json ...88/88 ./tsconfig.spec.json 8.51ms
+CSpell: Files checked: 88, Issues found: 59 in 18 files
+
+
+You can skip this misspellings by defining the following .cspell.json file at the root of your repository
+Of course, please correct real typos before :)
+
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "package-lock.json",
+        "report"
+    ],
+    "words": [
+        "BGQY",
+        "Bazel",
+        "Firestore",
+        "Mainnav",
+        "TTRPG",
+        "appspot",
+        "bazel",
+        "browserslist",
+        "camelcase",
+        "classpath",
+        "devkit",
+        "firebaseapp",
+        "firestore",
+        "fontawesome",
+        "fortawesome",
+        "globalthis",
+        "libpeerconnection",
+        "mainnav",
+        "ngsw",
+        "prerender",
+        "runtimeconfig",
+        "rxfire",
+        "sidenav",
+        "stefanzweifel",
+        "subdir",
+        "testem",
+        "venv"
+    ]
+}
+
+
+You can also copy-paste report/.cspell.json at the root of your repository
