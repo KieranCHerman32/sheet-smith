@@ -12,18 +12,18 @@
   </mat-form-field>
 </ng-container>
 
-<ng-container *ngIf="nav === charFilter">
+<ng-container>
   <mat-divider></mat-divider>
-  <button mat-flat-button (click)="routeTo('')">
+  <button mat-flat-button>
     Back
   </button>
   <mat-divider></mat-divider>
 </ng-container>
 
-<ng-container *ngIf="nav !== charFilter">
+<ng-container>
   <mat-divider></mat-divider>
   <div>
-    <button mat-flat-button (click)="newCharacter(charFilter)">
+    <button mat-flat-button (click)="nav.to('/char-sheet')">
       <fa-icon [icon]="faPlus"></fa-icon>
       New Character
     </button>

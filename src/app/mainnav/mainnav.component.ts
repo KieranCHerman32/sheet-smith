@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
 import { NavigationService } from '../services/navigation.service';
 import { environment } from './../../environments/environment';
 
@@ -11,24 +10,9 @@ import { environment } from './../../environments/environment';
 export class MainnavComponent implements OnInit {
 	ssVer: string = environment.ssVer;
 
-	nav: string = '';
-	subscription!: Subscription;
+	constructor() {}
 
-	testOb: any = {};
+	ngOnInit() {}
 
-	constructor(private navService: NavigationService) {}
-
-	ngOnInit() {
-		this.getNav();
-	}
-
-	ngOnDestroy() {
-		this.subscription.unsubscribe();
-	}
-
-	getNav() {
-		this.subscription = this.navService.currentNav.subscribe(
-			nav => (this.nav = nav),
-		);
-	}
+	ngOnDestroy() {}
 }
