@@ -1,0 +1,12 @@
+Results of yamllint linter (version 1.26.3)
+See documentation on https://megalinter.github.io/descriptors/yaml_yamllint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+::warning file=/github/workspace/.github/workflows/mega-linter.yml,line=6,col=1::[truthy] truthy value should be one of [false, true]
+::warning file=/github/workspace/.mega-linter.yml,line=4,col=1::[document-start] missing document start "---"
+::error file=/github/workspace/.scss-lint.yml,line=1,col=2::[braces] too many spaces inside braces
+::warning file=/github/workspace/.scss-lint.yml,line=1,col=1::[document-start] missing document start "---"
+::error file=/github/workspace/.scss-lint.yml,line=1,col=47::[braces] too many spaces inside braces
+
