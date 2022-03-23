@@ -23,6 +23,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { environment } from '../environments/environment';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrpModule } from './character-sheet/brp/brp.module';
 import { CharacterSheetComponent } from './character-sheet/character-sheet.component';
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
@@ -43,6 +44,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		AppRoutingModule,
 		BrowserAnimationsModule,
 		BrowserModule,
+		BrpModule,
 		FontAwesomeModule,
 		FormsModule,
 		MatButtonModule,
