@@ -1,0 +1,43 @@
+{
+    "ignorePaths": [
+        "**/node_modules/**",
+        "**/vscode-extension/**",
+        "**/.git/**",
+        ".vscode",
+        "megalinter",
+        "package-lock.json",
+        "report"
+    ],
+    "language": "en",
+    "noConfigSearch": true,
+    "version": "0.2",
+    "words": [
+        "BGQY",
+        "Bazel",
+        "Firestore",
+        "Mainnav",
+        "TTRPG",
+        "appspot",
+        "bazel",
+        "browserslist",
+        "camelcase",
+        "classpath",
+        "devkit",
+        "firebaseapp",
+        "firestore",
+        "fontawesome",
+        "fortawesome",
+        "globalthis",
+        "libpeerconnection",
+        "mainnav",
+        "ngsw",
+        "prerender",
+        "runtimeconfig",
+        "rxfire",
+        "sidenav",
+        "stefanzweifel",
+        "subdir",
+        "testem",
+        "venv"
+    ]
+}

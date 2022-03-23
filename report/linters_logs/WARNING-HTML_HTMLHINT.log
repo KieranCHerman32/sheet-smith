@@ -1,0 +1,99 @@
+Results of htmlhint linter (version 1.1.2)
+See documentation on https://megalinter.github.io/descriptors/html_htmlhint/
+-----------------------------------------------
+
+❌ [ERROR] for workspace /github/workspace
+Linter raw log:
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/app.component.html
+[37m      L1 |[90m<app-mainnav></app-mainnav>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.html
+[37m      L1 |[90m<p>armor works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.html
+[37m      L1 |[90m<mat-divider></mat-divider>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.html
+[37m      L1 |[90m<p>characteristics works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+[37m      L1 |[90m<p>derived-characteristics works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.html
+[37m      L1 |[90m<p>equipment works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.html
+[37m      L1 |[90m<p>identity works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.html
+[37m      L1 |[90m<p>skills works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+[37m      L1 |[90m<p>weapons-shields works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/character-sheet/character-sheet.component.html
+[37m      L1 |[90m<p>character-sheet works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/mainnav/mainnav.component.html
+[37m      L1 |[90m<mat-toolbar>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+[37m      L7 |[90m...click)="drawer.toggle()">SheetSmith<span id="ssVer">&nbsp;{{ssVer}}</span></span>[39m
+[37m                                                     ^ [31mThe id and class attribute values must be in lowercase and split by a dash. (id-class-value)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/rpg-selection/rpg-selection.component.html
+[37m      L1 |[90m<p>rpg-selection works!</p>[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+[37m      L3 |[90m  <div *ngFor="let sheet of sheetData" class="col-3">[39m
+[37m                ^ [31mThe attribute name of [ *ngFor ] must be in lowercase. (attr-lowercase)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+   /github/workspace/src/app/side-nav-content/side-nav-content.component.html
+[37m      L1 |[90m<ng-container *ngIf="feature.RPGFilter">[39m
+[37m                       ^ [31mThe attribute name of [ *ngIf ] must be in lowercase. (attr-lowercase)[39m
+[37m      L1 |[90m<ng-container *ngIf="feature.RPGFilter">[39m
+[37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
+[37m      L4 |[90m    <mat-select #mode value="All" [(ngModel)]="charFilter">[39m
+[37m                                           ^ [31mThe attribute name of [ [(ngModel)] ] must be in lowercase. (attr-lowercase)[39m
+[37m      L6 |[90m...  <mat-option [disabled]="true">Dungeons & Dragons</mat-option>[39m
+[37m                                                     ^ [31mSpecial characters must be escaped : [  &  ]. (spec-char-escape)[39m
+
+   Config loaded: /action/lib/.automation/.htmlhintrc
+
+Scanned 14 files, found 18 errors in 13 files (45 ms)
+

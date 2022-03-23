@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "stylelint.vscode-stylelint",
+        "streetsidesoftware.code-spell-checker",
+        "adamwalzer.scss-lint",
+        "esbenp.prettier-vscode",
+        "chenxsan.vscode-standardjs",
+        "mkaufman.HTMLHint",
+        "dbaeumer.vscode-eslint"
+    ]
+}

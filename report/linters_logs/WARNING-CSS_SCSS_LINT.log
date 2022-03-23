@@ -1,0 +1,38 @@
+Results of scss-lint linter (version 0.59.0)
+See documentation on https://megalinter.github.io/descriptors/css_scss_lint/
+-----------------------------------------------
+
+✅ [SUCCESS] src/app/app.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/armor/armor.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/identity/identity.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/skills/skills.component.scss
+✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+✅ [SUCCESS] src/app/character-sheet/character-sheet.component.scss
+❌ [ERROR] src/app/mainnav/mainnav.component.scss
+    src/app/mainnav/mainnav.component.scss:2:3 [W] PropertySortOrder: Properties should be ordered height, width
+    src/app/mainnav/mainnav.component.scss:7:3 [W] PropertySortOrder: Properties should be ordered align-items, display, height, justify-content
+    src/app/mainnav/mainnav.component.scss:27:3 [W] PropertySortOrder: Properties should be ordered background-color, border
+    src/app/mainnav/mainnav.component.scss:32:3 [W] PropertySortOrder: Properties should be ordered background, border, min-width
+    src/app/mainnav/mainnav.component.scss:33:15 [W] ColorVariable: Color literals like `#f5f5f5` should only be used in variable declarations; they should be referred to via variable everywhere else.
+    src/app/mainnav/mainnav.component.scss:34:3 [W] BorderZero: `border: 0` is preferred over `border: none`
+    src/app/mainnav/mainnav.component.scss:37:1 [W] IdSelector: Avoid using id selectors
+    src/app/mainnav/mainnav.component.scss:37:1 [W] SelectorFormat: Selector `ssVer` should be written in lowercase with hyphens
+
+✅ [SUCCESS] src/app/rpg-selection/rpg-selection.component.scss
+❌ [ERROR] src/app/side-nav-content/side-nav-content.component.scss
+    src/app/side-nav-content/side-nav-content.component.scss:2:3 [W] PropertySortOrder: Properties should be ordered border, box-shadow, width
+    src/app/side-nav-content/side-nav-content.component.scss:3:3 [W] BorderZero: `border: 0` is preferred over `border: none`
+    src/app/side-nav-content/side-nav-content.component.scss:9:3 [W] PropertySortOrder: Properties should be ordered display, margin, width
+
+❌ [ERROR] src/styles.scss
+    src/styles.scss:1:1 [W] Comment: Use `//` comments everywhere
+    src/styles.scss:2:9 [W] StringQuotes: Prefer single quoted strings
+    src/styles.scss:10:3 [W] PropertySortOrder: Properties should be ordered font-family, margin
+    src/styles.scss:18:1 [W] MergeableSelector: Merge rule `html, body` with rule on line 4
+    src/styles.scss:23:1 [W] MergeableSelector: Merge rule `body` with rule on line 9
+    src/styles.scss:24:3 [W] PropertySortOrder: Properties should be ordered font-family, margin
+
