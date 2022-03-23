@@ -1,14 +1,12 @@
-import { Component, OnInit } from '@angular/core'
-import { ActivatedRoute, Router } from '@angular/router'
-import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { Subscription } from 'rxjs'
-import { environment } from './../../environments/environment.prod'
-import { NavigationService } from './../services/navigation.service'
+import { Component, OnInit } from '@angular/core';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { environment } from './../../environments/environment.prod';
+import { NavigationService } from './../services/navigation.service';
 
 @Component({
-  selector: 'app-side-nav-content',
-  templateUrl: './side-nav-content.component.html',
-  styleUrls: ['./side-nav-content.component.scss']
+	selector: 'app-side-nav-content',
+	templateUrl: './side-nav-content.component.html',
+	styleUrls: ['./side-nav-content.component.scss'],
 })
 export class SideNavContentComponent implements OnInit {
 	feature = environment.features;
@@ -16,13 +14,13 @@ export class SideNavContentComponent implements OnInit {
 
 	charFilter = 'brp';
 
-	constructor (public nav: NavigationService) {}
+	constructor(public nav: NavigationService) {}
 
-	ngOnInit (): void {}
+	ngOnInit(): void {}
 
-	ngOnDestroy () {}
+	ngOnDestroy() {}
 
-	newCharacter (charType: string) {
-	  this.nav.to(charType, false)
+	newCharacter(charType: string) {
+		this.nav.to(charType, false);
 	}
 }
