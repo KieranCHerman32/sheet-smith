@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-
 import { RpgSelectionComponent } from './rpg-selection.component'
 
 describe('RpgSelectionComponent', () => {
@@ -9,8 +8,7 @@ describe('RpgSelectionComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [RpgSelectionComponent]
-    })
-      .compileComponents()
+    }).compileComponents()
   })
 
   beforeEach(() => {

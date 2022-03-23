@@ -8,5 +8,6 @@
     "TTRPG"
   ],
   "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active"
+  "editor.guides.bracketPairs": "active",
+  "scssLint.configDir": ".scss-lint.yml"
 }

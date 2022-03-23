@@ -1481,6 +1481,3 @@ standard: Use JavaScript Standard Style (https://standardjs.com)
 
 Identified PR#19 from environment
 [GitHub Comment Reporter] Posted summary as comment on KieranCHerman32/sheet-smith #PR19
-[Updated Sources Reporter] copied 10 fixed source files in folder /github/workspace/report/updated_sources.
-Download it from artifacts then copy-paste it in your local repo to apply linters updates
-[33m◬ Successfully linted all files, but with ignored errors[0m
