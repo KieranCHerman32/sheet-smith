@@ -1,10 +1,10 @@
 {
     "recommendations": [
-        "adamwalzer.scss-lint",
-        "stylelint.vscode-stylelint",
-        "dbaeumer.vscode-eslint",
         "streetsidesoftware.code-spell-checker",
+        "mkaufman.HTMLHint",
+        "stylelint.vscode-stylelint",
         "esbenp.prettier-vscode",
-        "mkaufman.HTMLHint"
+        "dbaeumer.vscode-eslint",
+        "adamwalzer.scss-lint"
     ]
 }

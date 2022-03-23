@@ -267,5 +267,5 @@ Linter raw log:
 [37m      L14 |[90m  <app-root></app-root>[39m
 [37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
 
-Scanned 14 files, found 103 errors in 14 files (47 ms)
+Scanned 14 files, found 103 errors in 14 files (71 ms)
 

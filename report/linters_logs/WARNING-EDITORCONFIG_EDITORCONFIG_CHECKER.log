@@ -6,8 +6,51 @@ See documentation on https://megalinter.github.io/descriptors/editorconfig_edito
 Linter raw log:
 [33;1m.angulardoc.json:[33;0m
 [31;1m	Wrong line endings or new final newline[33;0m
+[33;1m.cspell.json:[33;0m
+[31;1m	Wrong line endings or new final newline[33;0m
 [33;1m.firebaserc:[33;0m
 [31;1m	Wrong line endings or new final newline[33;0m
+[33;1mkarma.conf.js:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	26: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	30: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	32: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	34: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	35: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	36: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	37: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	38: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	39: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	40: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	41: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	42: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	43: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:[33;0m
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -17,7 +60,6 @@ Linter raw log:
 [31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-
 [31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -31,22 +73,6 @@ Linter raw log:
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[33;1msrc/app/rpg-selection/rpg-selection.component.spec.ts:[33;0m
-[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/rpg-selection/rpg-selection.component.ts:[33;0m
 [31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -97,6 +123,6 @@ Linter raw log:
 [31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m
-82 errors found[33;0m
+107 errors found[33;0m
 
 
