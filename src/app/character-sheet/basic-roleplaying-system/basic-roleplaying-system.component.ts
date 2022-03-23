@@ -1,13 +1,13 @@
-import { Component, OnInit } from '@angular/core'
-import { ActivatedRoute, Router } from '@angular/router'
-import { Subscription } from 'rxjs'
-import { NavigationService } from 'src/app/services/navigation.service'
-import { DataService } from './../../services/data.service'
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Subscription } from 'rxjs';
+import { NavigationService } from 'src/app/services/navigation.service';
+import { DataService } from './../../services/data.service';
 
 @Component({
-  selector: 'app-basic-roleplaying-system',
-  templateUrl: './basic-roleplaying-system.component.html',
-  styleUrls: ['./basic-roleplaying-system.component.scss']
+	selector: 'app-basic-roleplaying-system',
+	templateUrl: './basic-roleplaying-system.component.html',
+	styleUrls: ['./basic-roleplaying-system.component.scss'],
 })
 export class BasicRoleplayingSystemComponent implements OnInit {
 	nav: string = '';
@@ -17,18 +17,18 @@ export class BasicRoleplayingSystemComponent implements OnInit {
 
 	sheetData: any;
 
-	constructor (
+	constructor(
 		private dataService: DataService,
 		private navService: NavigationService,
 		private route: ActivatedRoute,
-		private router: Router
+		private router: Router,
 	) {}
 
-	ngOnInit (): void {
-	  console.log('Entering BasicRoleplayingSystemComponent')
+	ngOnInit(): void {
+		console.log('Entering BasicRoleplayingSystemComponent');
 	}
 
-	ngOnDestroy () {
-	  this.subscription.unsubscribe()
+	ngOnDestroy() {
+		this.subscription.unsubscribe();
 	}
 }

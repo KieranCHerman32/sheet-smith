@@ -8,6 +8,7 @@ import { EquipmentComponent } from '../basic-roleplaying-system/equipment/equipm
 import { IdentityComponent } from '../basic-roleplaying-system/identity/identity.component';
 import { SkillsComponent } from '../basic-roleplaying-system/skills/skills.component';
 import { WeaponsShieldsComponent } from '../basic-roleplaying-system/weapons-shields/weapons-shields.component';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
 	declarations: [
@@ -20,6 +21,6 @@ import { WeaponsShieldsComponent } from '../basic-roleplaying-system/weapons-shi
 		SkillsComponent,
 		WeaponsShieldsComponent,
 	],
-	imports: [CommonModule],
+	imports: [CommonModule, MatDividerModule],
 })
 export class BrpModule {}
