@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { ActivatedRoute, Router } from '@angular/router'
 import { faPlus } from '@fortawesome/free-solid-svg-icons'
-import { Subscription } from 'rxjs'
 import { environment } from './../../environments/environment.prod'
 import { NavigationService } from './../services/navigation.service'
 

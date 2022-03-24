@@ -1,16 +1,16 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed } from '@angular/core/testing'
 
-import { BrpDataService } from './brp-data.service';
+import { BrpDataService } from './brp-data.service'
 
 describe('BrpDataService', () => {
-	let service: BrpDataService;
+  let service: BrpDataService
 
-	beforeEach(() => {
-		TestBed.configureTestingModule({});
-		service = TestBed.inject(BrpDataService);
-	});
+  beforeEach(() => {
+    TestBed.configureTestingModule({})
+    service = TestBed.inject(BrpDataService)
+  })
 
-	it('should be created', () => {
-		expect(service).toBeTruthy();
-	});
-});
+  it('should be created', () => {
+    expect(service).toBeTruthy()
+  })
+})
