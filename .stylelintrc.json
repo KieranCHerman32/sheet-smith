@@ -1,5 +1,5 @@
 {
   "extends": "stylelint-config-standard",
-  "no-empty-source": true,
+  "no-empty-source": false,
   "selector-pseudo-element-no-unknown": false
 }
