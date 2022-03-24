@@ -9,5 +9,6 @@
   ],
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "scssLint.configDir": ".scss-lint.yml"
+"scssLint.configDir": ".scss-lint.yml",
+"editor.detectIndentation": false
 }
