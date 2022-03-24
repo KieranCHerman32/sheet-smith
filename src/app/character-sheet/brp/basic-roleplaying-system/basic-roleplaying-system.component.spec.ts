@@ -9,8 +9,7 @@ describe('BasicRoleplayingSystemComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [BasicRoleplayingSystemComponent]
-    })
-      .compileComponents()
+    }).compileComponents()
   })
 
   beforeEach(() => {

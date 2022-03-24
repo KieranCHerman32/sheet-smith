@@ -3,14 +3,14 @@ See documentation on https://megalinter.github.io/descriptors/css_scss_lint/
 -----------------------------------------------
 
 ✅ [SUCCESS] src/app/app.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/armor/armor.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/identity/identity.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/skills/skills.component.scss
-✅ [SUCCESS] src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+✅ [SUCCESS] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
 ✅ [SUCCESS] src/app/character-sheet/character-sheet.component.scss
 ❌ [ERROR] src/app/mainnav/mainnav.component.scss
     src/app/mainnav/mainnav.component.scss:1:2 [W] NameFormat: Name of variable `bgColor` should be written in all lowercase letters with hyphens instead of underscores

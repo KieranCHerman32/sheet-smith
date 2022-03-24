@@ -20,72 +20,72 @@ standard: Use JavaScript Standard Style (https://standardjs.com)
   /github/workspace/src/app/brp-data.service.spec.ts:13:3: 'it' is not defined.
   /github/workspace/src/app/brp-data.service.spec.ts:14:5: 'expect' is not defined.
   /github/workspace/src/app/brp-data.service.ts:7:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:13:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:14:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:16:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:18:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:20:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:20:2: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:21:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:22:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:23:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:24:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:25:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:27:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:28:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:28:1: Mixed spaces and tabs.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:29:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:31:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:32:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:32:1: Mixed spaces and tabs.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.ts:33:1: Unexpected tab character.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.ts:9:3: Useless constructor.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:5:1: 'describe' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:9:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:16:3: 'beforeEach' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:22:3: 'it' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:15:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:21:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:22:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:13:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:14:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:16:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:18:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:20:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:20:2: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:21:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:22:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:23:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:24:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:25:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:27:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:28:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:28:1: Mixed spaces and tabs.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:29:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:31:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:32:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:32:1: Mixed spaces and tabs.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:33:1: Unexpected tab character.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts:9:3: Useless constructor.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:5:1: 'describe' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:9:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:16:3: 'beforeEach' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:22:3: 'it' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:23:5: 'expect' is not defined.
+  /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts:9:3: Useless constructor.
   /github/workspace/src/app/character-sheet/character-sheet.component.spec.ts:5:1: 'describe' is not defined.
   /github/workspace/src/app/character-sheet/character-sheet.component.spec.ts:9:3: 'beforeEach' is not defined.
   /github/workspace/src/app/character-sheet/character-sheet.component.spec.ts:16:3: 'beforeEach' is not defined.
@@ -184,20 +184,17 @@ standard: Use JavaScript Standard Style (https://standardjs.com)
   /github/workspace/src/app/side-nav-content/side-nav-content.component.spec.ts:16:3: 'beforeEach' is not defined.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.spec.ts:22:3: 'it' is not defined.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.spec.ts:23:5: 'expect' is not defined.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:2:10: 'ActivatedRoute' is defined but never used.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:2:26: 'Router' is defined but never used.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:4:10: 'Subscription' is defined but never used.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:14:1: Unexpected tab character.
+  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:12:1: Unexpected tab character.
+  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:13:1: Unexpected tab character.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:15:1: Unexpected tab character.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:17:1: Unexpected tab character.
+  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:17:2: Useless constructor.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:19:1: Unexpected tab character.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:19:2: Useless constructor.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:21:1: Unexpected tab character.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:23:1: Unexpected tab character.
+  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:24:1: Unexpected tab character.
+  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:24:1: Mixed spaces and tabs.
   /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:25:1: Unexpected tab character.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:26:1: Unexpected tab character.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:26:1: Mixed spaces and tabs.
-  /github/workspace/src/app/side-nav-content/side-nav-content.component.ts:27:1: Unexpected tab character.
   /github/workspace/src/app/types/testing.ts:2:1: Unexpected tab character.
   /github/workspace/src/app/types/testing.ts:3:1: Unexpected tab character.
 

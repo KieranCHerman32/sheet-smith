@@ -13,49 +13,49 @@ Linter raw log:
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/armor/armor.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html
 [37m      L1 |[90m<p>armor works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/basic-roleplaying-system.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html
 [37m      L1 |[90m<mat-divider></mat-divider>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/characteristics/characteristics.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html
 [37m      L1 |[90m<p>characteristics works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
 [37m      L1 |[90m<p>derived-characteristics works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/equipment/equipment.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html
 [37m      L1 |[90m<p>equipment works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/identity/identity.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html
 [37m      L1 |[90m<p>identity works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/skills/skills.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html
 [37m      L1 |[90m<p>skills works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
    Config loaded: /github/workspace/.htmlhintrc
 
-   /github/workspace/src/app/character-sheet/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+   /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
 [37m      L1 |[90m<p>weapons-shields works!</p>[39m
 [37m          ^ [31mDoctype must be declared first. (doctype-first)[39m
 
@@ -267,5 +267,5 @@ Linter raw log:
 [37m      L14 |[90m  <app-root></app-root>[39m
 [37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
 
-Scanned 14 files, found 103 errors in 14 files (71 ms)
+Scanned 14 files, found 103 errors in 14 files (50 ms)
 

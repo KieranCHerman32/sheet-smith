@@ -7,7 +7,6 @@ See documentation on https://megalinter.github.io/descriptors/json_v8r/
 ✅ [SUCCESS] .eslintrc.json
 ✅ [SUCCESS] .jscpd.json
 ✅ [SUCCESS] .stylelintrc.json
-✅ [SUCCESS] .vscode/settings.json
 ✅ [SUCCESS] angular.json
 ✅ [SUCCESS] firebase-rtdb-backup.json
 ✅ [SUCCESS] firebase.json
