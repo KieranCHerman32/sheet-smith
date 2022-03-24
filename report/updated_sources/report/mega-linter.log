@@ -1,0 +1,1120 @@
+----------------------------------------------------------------------------------------------------
+-------------------------------------------- MegaLinter --------------------------------------------
+----------------------------------------------------------------------------------------------------
+ - Image Creation Date: 2022-03-20T11:12:01Z
+ - Image Revision: 73bc6eaf7
+ - Image Version: v5
+----------------------------------------------------------------------------------------------------
+The MegaLinter documentation can be found at:
+ - https://megalinter.github.io
+----------------------------------------------------------------------------------------------------
+GITHUB_REPOSITORY: KieranCHerman32/sheet-smith
+GITHUB_REF: master
+GITHUB_RUN_ID: 2035568850
+
+
+[Activation] SWIFT_SWIFTLINT has been set inactive, as none of these files has been found: ['.swiftlint.yml']
+Skipped linters: ANSIBLE_ANSIBLE_LINT, CSS_SCSS_LINT, JAVASCRIPT_PRETTIER, JAVASCRIPT_STANDARD, JSON_JSONLINT, KUBERNETES_KUBECONFORM, KUBERNETES_KUBEVAL, MARKDOWN_REMARK_LINT, SALESFORCE_SFDX_SCANNER_APEX, SALESFORCE_SFDX_SCANNER_AURA, SALESFORCE_SFDX_SCANNER_LWC, SWIFT_SWIFTLINT, TYPESCRIPT_PRETTIER, TYPESCRIPT_STANDARD, YAML_YAMLLINT
+To receive reports as email, please set variable EMAIL_REPORTER_EMAIL
+Listing all files in directory [/github/workspace], then filter with:
+- File extensions: , *, .R, .RMD, .Rmd, .bash, .c, .c++, .cc, .cdxml, .clj, .cljc, .cljs, .coffee, .cpp, .cs, .css, .cu, .cuh, .cxx, .dart, .dash, .edn, .env, .feature, .go, .gradle, .graphql, .groovy, .gvy, .h, .h++, .hcl, .hh, .hpp, .htm, .html, .hxx, .java, .js, .json, .json5, .jsonc, .jsx, .ksh, .kt, .kts, .lua, .md, .nf, .p6, .php, .pl, .pl6, .pm, .pm6, .pp, .proto, .ps1, .ps1xml, .psd1, .psm1, .psrc, .pssc, .py, .r, .raku, .rakumod, .rakutest, .rb, .rs, .rst, .saas, .scala, .scss, .sh, .smk, .sql, .t, .tex, .tf, .ts, .tsx, .vb, .vue, .xml, .yaml, .yml
+- File names (regex): Dockerfile, Jenkinsfile, Snakefile
+- Excluding .gitignored files [1]: /github/workspace/.vscode/settings.json
+Kept [95] files on [96] found files
+
++----MATCHING LINTERS---------------------+---------------------+----------------+------------+
+| Descriptor   | Linter                   | Criteria            | Matching files | Format/Fix |
++--------------+--------------------------+---------------------+----------------+------------+
+| ACTION       | actionlint               | .yml|.yaml          | 1              | no         |
+| COPYPASTE    | jscpd                    |                     | project        | no         |
+| CREDENTIALS  | secretlint               |                     | project        | no         |
+| CSS          | stylelint                | .css|.scss|.saas    | 14             | yes        |
+| EDITORCONFIG | editorconfig-checker     | *                   | 95             | no         |
+| GIT          | git_diff                 |                     | project        | no         |
+| HTML         | htmlhint                 | .html|.htm          | 14             | no         |
+| JAVASCRIPT   | eslint                   | .js|.vue            | 1              | yes        |
+| JSON         | eslint-plugin-jsonc      | .json|.json5|.jsonc | 13             | yes        |
+| JSON         | v8r                      | .json               | 13             | no         |
+| JSON         | prettier                 | .json               | 13             | yes        |
+| MARKDOWN     | markdownlint             | .md                 | 1              | yes        |
+| MARKDOWN     | markdown-link-check      | .md                 | 1              | no         |
+| MARKDOWN     | markdown-table-formatter | .md                 | 1              | yes        |
+| SPELL        | misspell                 |                     | 95             | yes        |
+| SPELL        | cspell                   |                     | 95             | no         |
+| TYPESCRIPT   | eslint                   | .ts                 | 39             | yes        |
+| YAML         | prettier                 | .yml|.yaml          | 2              | yes        |
+| YAML         | v8r                      | .yml|.yaml          | 2              | no         |
++--------------+--------------------------+---------------------+----------------+------------+
+
+
+[1m### Processed [ACTION] files[0m
+- Using [actionlint v1.6.10] https://megalinter.github.io/v5/descriptors/action_actionlint
+- MegaLinter key: [ACTION_ACTIONLINT]
+- Rules config: identified by [actionlint]
+[actionlint] .github/workflows/mega-linter.yml
+[32m✅ Linted [ACTION] files with [actionlint] successfully - (0.02s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-ACTION_ACTIONLINT.log
+
+[1m### Processed [COPYPASTE] files[0m
+- Using [jscpd v3.3.26] https://megalinter.github.io/v5/descriptors/copypaste_jscpd
+- MegaLinter key: [COPYPASTE_JSCPD]
+- Rules config: [/github/workspace/.jscpd.json]
+[32m✅ Linted [COPYPASTE] files with [jscpd] successfully - (1.3s)[0m
+
+[1m### Processed [CREDENTIALS] files[0m
+- Using [secretlint v4.1.0] https://megalinter.github.io/v5/descriptors/credentials_secretlint
+- MegaLinter key: [CREDENTIALS_SECRETLINT]
+- Rules config: [.secretlintrc.json]
+[32m✅ Linted [CREDENTIALS] files with [secretlint] successfully - (1.13s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-COPYPASTE_JSCPD.log
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-CREDENTIALS_SECRETLINT.log
+
+[1m### Processed [EDITORCONFIG] files[0m
+- Using [editorconfig-checker v2.3.5] https://megalinter.github.io/v5/descriptors/editorconfig_editorconfig_checker
+- MegaLinter key: [EDITORCONFIG_EDITORCONFIG_CHECKER]
+- Rules config: identified by [editorconfig-checker]
+[editorconfig-checker] .angulardoc.json
+[editorconfig-checker] .browserslistrc
+[editorconfig-checker] .cspell.json
+[editorconfig-checker] .editorconfig
+[editorconfig-checker] .eslintrc.json
+[editorconfig-checker] .firebaserc
+[editorconfig-checker] .github/workflows/mega-linter.yml
+[editorconfig-checker] .gitignore
+[editorconfig-checker] .htmlhintrc
+[editorconfig-checker] .jscpd.json
+[editorconfig-checker] .mega-linter.yml
+[editorconfig-checker] .stylelintrc.json
+[editorconfig-checker] README.md
+[editorconfig-checker] angular.json
+[editorconfig-checker] firebase-rtdb-backup.json
+[editorconfig-checker] firebase.json
+[editorconfig-checker] karma.conf.js
+[editorconfig-checker] package-lock.json
+[editorconfig-checker] package.json
+[editorconfig-checker] src/app/app-routing.module.ts
+[editorconfig-checker] src/app/app.component.html
+[editorconfig-checker] src/app/app.component.scss
+[editorconfig-checker] src/app/app.component.spec.ts
+[editorconfig-checker] src/app/app.component.ts
+[editorconfig-checker] src/app/app.module.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts
+[editorconfig-checker] src/app/character-sheet/brp/brp.module.ts
+[editorconfig-checker] src/app/character-sheet/character-sheet.component.html
+[editorconfig-checker] src/app/character-sheet/character-sheet.component.scss
+[editorconfig-checker] src/app/character-sheet/character-sheet.component.spec.ts
+[editorconfig-checker] src/app/character-sheet/character-sheet.component.ts
+[editorconfig-checker] src/app/mainnav/mainnav.component.html
+[editorconfig-checker] src/app/mainnav/mainnav.component.scss
+[editorconfig-checker] src/app/mainnav/mainnav.component.spec.ts
+[editorconfig-checker] src/app/mainnav/mainnav.component.ts
+[editorconfig-checker] src/app/rpg-selection/rpg-selection.component.html
+[editorconfig-checker] src/app/rpg-selection/rpg-selection.component.scss
+[editorconfig-checker] src/app/rpg-selection/rpg-selection.component.spec.ts
+[editorconfig-checker] src/app/rpg-selection/rpg-selection.component.ts
+[editorconfig-checker] src/app/services/data.service.spec.ts
+[editorconfig-checker] src/app/services/data.service.ts
+[editorconfig-checker] src/app/services/navigation.service.spec.ts
+[editorconfig-checker] src/app/services/navigation.service.ts
+[editorconfig-checker] src/app/side-nav-content/side-nav-content.component.html
+[editorconfig-checker] src/app/side-nav-content/side-nav-content.component.scss
+[editorconfig-checker] src/app/side-nav-content/side-nav-content.component.spec.ts
+[editorconfig-checker] src/app/side-nav-content/side-nav-content.component.ts
+[editorconfig-checker] src/app/types/testing.ts
+[editorconfig-checker] src/assets/.gitkeep
+[editorconfig-checker] src/assets/BRP Logos/Black BRP TM2 transparent.png
+[editorconfig-checker] src/assets/BRP Logos/Black BRP TM2.png
+[editorconfig-checker] src/assets/BRP Logos/Red BRP TM2 transparent.png
+[editorconfig-checker] src/assets/BRP Logos/Red BRP TM2.png
+[editorconfig-checker] src/environments/environment.prod.ts
+[editorconfig-checker] src/environments/environment.ts
+[editorconfig-checker] src/favicon.ico
+[editorconfig-checker] src/index.html
+[editorconfig-checker] src/main.ts
+[editorconfig-checker] src/polyfills.ts
+[editorconfig-checker] src/styles.scss
+[editorconfig-checker] src/test.ts
+[editorconfig-checker] tsconfig.app.json
+[editorconfig-checker] tsconfig.json
+[editorconfig-checker] tsconfig.spec.json
+--Error detail:
+[33;1m.firebaserc:[33;0m
+[31;1m	Wrong line endings or new final newline[33;0m
+[33;1m.gitignore:[33;0m
+[31;1m	Wrong line endings or new final newline[33;0m
+[33;1mkarma.conf.js:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	26: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	30: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	32: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	34: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	35: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	36: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	37: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	38: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	39: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	40: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	41: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	42: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	43: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/app.module.ts:[33;0m
+[31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	34: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	35: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	36: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	37: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	38: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	39: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	40: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	41: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	42: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	43: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	44: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	45: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	46: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	47: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	48: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	49: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	50: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	51: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	52: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	53: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	54: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	55: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	56: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	57: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	58: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	59: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	60: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	61: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	62: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	32: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/mainnav/mainnav.component.ts:[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/rpg-selection/rpg-selection.component.ts:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/side-nav-content/side-nav-content.component.ts:[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/testing.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/environments/environment.prod.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/environments/environment.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m
+150 errors found[33;0m
+
+
+[33m✅ Linted [EDITORCONFIG] files with [editorconfig-checker]: Found 1 non blocking error(s) - (1.09s)[0m
+
+[1m### Processed [CSS] files[0m
+- Using [stylelint v14.6.0] https://megalinter.github.io/v5/descriptors/css_stylelint
+- MegaLinter key: [CSS_STYLELINT]
+- Rules config: [/github/workspace/.stylelintrc.json]
+[stylelint] src/app/app.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+[stylelint] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+[stylelint] src/app/character-sheet/character-sheet.component.scss
+[stylelint] src/app/mainnav/mainnav.component.scss
+[stylelint] src/app/rpg-selection/rpg-selection.component.scss
+[stylelint] src/app/side-nav-content/side-nav-content.component.scss
+[stylelint] src/styles.scss
+--Error detail:
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/character-sheet.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/mainnav/mainnav.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/side-nav-content/side-nav-content.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/rpg-selection/rpg-selection.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/styles.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/app.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+
+src/app/app.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/character-sheet/character-sheet.component.scss
+ [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m
+
+src/app/mainnav/mainnav.component.scss
+ [2m23:1[22m  [31m[31m✖[39m  Unexpected unknown pseudo-element selector "::ng-deep"  [2mselector-pseudo-element-no-unknown[22m
+ [2m39:1[22m  [31m[31m✖[39m  Expected id selector to be kebab-case                   [2mselector-id-pattern[22m
+
+
+[33m✅ Linted [CSS] files with [stylelint]: Found 1 non blocking error(s) - (1.19s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/WARNING-EDITORCONFIG_EDITORCONFIG_CHECKER.log
+
+[1m### Processed [GIT] files[0m
+- Using [git_diff v2.30.2] https://megalinter.github.io/v5/descriptors/git_git_diff
+- MegaLinter key: [GIT_GIT_DIFF]
+- Rules config: identified by [git_diff]
+[32m✅ Linted [GIT] files with [git_diff] successfully - (0.01s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/WARNING-CSS_STYLELINT.log
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-GIT_GIT_DIFF.log
+
+[1m### Processed [HTML] files[0m
+- Using [htmlhint v1.1.2] https://megalinter.github.io/v5/descriptors/html_htmlhint
+- MegaLinter key: [HTML_HTMLHINT]
+- Rules config: [/github/workspace/.htmlhintrc]
+[htmlhint] src/app/app.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html
+[htmlhint] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+[htmlhint] src/app/character-sheet/character-sheet.component.html
+[htmlhint] src/app/mainnav/mainnav.component.html
+[htmlhint] src/app/rpg-selection/rpg-selection.component.html
+[htmlhint] src/app/side-nav-content/side-nav-content.component.html
+[htmlhint] src/index.html
+--Error detail:
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   /github/workspace/src/app/mainnav/mainnav.component.html
+[37m      L2 |[90m  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L2 |[90m  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"[39m
+[37m            ^ [31mInaccurate order ["mat-icon-button","class","aria-label","(click)"] should be in hierarchy ["class","mat-icon-button","aria-label","(click)"]  (attr-sorted)[39m
+[37m      L4 |[90m    <mat-icon>menu</mat-icon>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L5 |[90m  </button>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m  <!-- ssVer id will change based on release...dynamically displayed versioning -->[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L7 |[90m  <span (click)="drawer.toggle()">SheetSmith<span id="ssVer">&nbsp;{{ssVer}}</span></span>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L8 |[90m  <span class="example-spacer"></span>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L11 |[90m  <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="true">[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L11 |[90m  <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="true">[39m
+[37m             ^ [31mInaccurate order ["#drawer","class","mode","[opened]"] should be in hierarchy ["class","#drawer","mode","[opened]"]  (attr-sorted)[39m
+[37m      L12 |[90m    <app-side-nav-content></app-side-nav-content>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L13 |[90m  </mat-drawer>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L14 |[90m  <div class="container">[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L15 |[90m    <router-outlet></router-outlet>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L16 |[90m  </div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   /github/workspace/src/app/rpg-selection/rpg-selection.component.html
+[37m      L3 |[90m  <div *ngFor="let sheet of sheetData" class="col-3">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L3 |[90m  <div *ngFor="let sheet of sheetData" class="col-3">[39m
+[37m                ^ [31mThe attribute name of [ *ngFor ] must be in lowercase. (attr-lowercase)[39m
+[37m      L3 |[90m  <div *ngFor="let sheet of sheetData" class="col-3">[39m
+[37m            ^ [31mInaccurate order ["*ngFor","class"] should be in hierarchy ["class","*ngFor"]  (attr-sorted)[39m
+[37m      L4 |[90m    <mat-card>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L5 |[90m      <mat-card-header>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m        <img mat-card-image src="../../assets/BRP Logos/Red BRP TM2.png" alt="logo">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m        <img mat-card-image src="../../assets/BRP Logos/Red BRP TM2.png" alt="logo">[39m
+[37m                  ^ [31mInaccurate order ["mat-card-image","src","alt"] should be in hierarchy ["src","alt","mat-card-image"]  (attr-sorted)[39m
+[37m      L7 |[90m        <mat-card-title>{{sheet.nm}}</mat-card-title>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L8 |[90m      </mat-card-header>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L9 |[90m      <!-- <mat-card-content>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L13 |[90m    </mat-card>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L14 |[90m  </div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   /github/workspace/src/app/side-nav-content/side-nav-content.component.html
+[37m      L1 |[90m<ng-container *ngIf="feature.RPGFilter">[39m
+[37m                       ^ [31mThe attribute name of [ *ngIf ] must be in lowercase. (attr-lowercase)[39m
+[37m      L2 |[90m  <mat-form-field appearance="outline">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L3 |[90m    <mat-label>Filter By TTRPG</mat-label>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L4 |[90m    <mat-select #mode value="All" [(ngModel)]="charFilter">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L4 |[90m    <mat-select #mode value="All" [(ngModel)]="charFilter">[39m
+[37m                                           ^ [31mThe attribute name of [ [(ngModel)] ] must be in lowercase. (attr-lowercase)[39m
+[37m      L4 |[90m    <mat-select #mode value="All" [(ngModel)]="charFilter">[39m
+[37m              ^ [31mInaccurate order ["#mode","value","[(ngModel)]"] should be in hierarchy ["value","#mode","[(ngModel)]"]  (attr-sorted)[39m
+[37m      L5 |[90m      <!-- Implement Service to auto-generate options and dividers -->[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m      <mat-option [disabled]="true">Dungeons & Dragons</mat-option>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m...  <mat-option [disabled]="true">Dungeons & Dragons</mat-option>[39m
+[37m                                                     ^ [31mSpecial characters must be escaped : [  &  ]. (spec-char-escape)[39m
+[37m      L7 |[90m      <mat-option value="D&D 5e">5e</mat-option>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L8 |[90m      <mat-option value="D&D 3.5e">3.5e</mat-option>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L9 |[90m      <mat-option [disabled]="true">Powered By The Apocalypse</mat-option>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L10 |[90m      <mat-option value="Apocalypse World">Apocalypse World</mat-option>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L11 |[90m    </mat-select>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L12 |[90m  </mat-form-field>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L16 |[90m  <mat-divider></mat-divider>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L17 |[90m  <button mat-flat-button>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L18 |[90m    Back[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L19 |[90m  </button>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L20 |[90m  <mat-divider></mat-divider>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L24 |[90m  <mat-divider></mat-divider>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L25 |[90m  <div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L26 |[90m    <button mat-flat-button (click)="nav.to('/char-sheet')">[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L27 |[90m      <fa-icon [icon]="faPlus"></fa-icon>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L28 |[90m      New Character[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L29 |[90m    </button>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L30 |[90m  </div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L32 |[90m  <mat-divider></mat-divider>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L34 |[90m  <div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L35 |[90m    <button mat-flat-button>View All Characters</button>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L36 |[90m  </div>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L38 |[90m  <mat-divider></mat-divider>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+
+   Config loaded: /github/workspace/.htmlhintrc
+
+   /github/workspace/src/index.html
+[37m      L4 |[90m  <meta charset="utf-8">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L5 |[90m  <title>SheetSmith</title>[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L6 |[90m  <base href="/">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L7 |[90m  <meta name="viewport" content="width=device-width, initial-scale=1">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L8 |[90m  <link rel="icon" type="image/x-icon" href="favicon.ico">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L8 |[90m  <link rel="icon" type="image/x-icon" href="favicon.ico">[39m
+[37m            ^ [31mInaccurate order ["rel","type","href"] should be in hierarchy ["type","href","rel"]  (attr-sorted)[39m
+[37m      L9 |[90m  <link rel="preconnect" href="https://fonts.gstatic.com">[39m
+[37m          ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L9 |[90m  <link rel="preconnect" href="https://fonts.gstatic.com">[39m
+[37m            ^ [31mInaccurate order ["rel","href"] should be in hierarchy ["href","rel"]  (attr-sorted)[39m
+[37m      L10 |[90m  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="sty...[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L11 |[90m  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+[37m      L14 |[90m  <app-root></app-root>[39m
+[37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
+
+Scanned 14 files, found 69 errors in 4 files (47 ms)
+
+[33m✅ Linted [HTML] files with [htmlhint]: Found 69 non blocking error(s) - (0.28s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/WARNING-HTML_HTMLHINT.log
+
+[1m### Processed [JAVASCRIPT] files[0m
+- Using [eslint v8.11.0] https://megalinter.github.io/v5/descriptors/javascript_eslint
+- MegaLinter key: [JAVASCRIPT_ES]
+- Rules config: [/github/workspace/.eslintrc.json]
+[eslint] karma.conf.js
+[32m✅ Linted [JAVASCRIPT] files with [eslint] successfully - (2.46s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JAVASCRIPT_ES.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdownlint v0.31.1] https://megalinter.github.io/v5/descriptors/markdown_markdownlint
+- MegaLinter key: [MARKDOWN_MARKDOWNLINT]
+- Rules config: [.markdownlint.json]
+[markdownlint] README.md
+[32m✅ Linted [MARKDOWN] files with [markdownlint] successfully - (0.33s)[0m
+Unable to get version for linter [eslint-plugin-jsonc]
+/node_modules/.bin/npm list eslint-plugin-jsonc returned output: (1) sheet-smith@0.0.0 /github/workspace
+└── (empty)
+
+
+Unable to extract version with regex re.compile('\\d+(\\.\\d+)+') from ERROR
+
+[1m### Processed [JSON] files[0m
+- Using [eslint-plugin-jsonc vERROR] https://megalinter.github.io/v5/descriptors/json_eslint_plugin_jsonc
+- MegaLinter key: [JSON_ESLINT_PLUGIN_JSONC]
+- Rules config: [.eslintrc-json.json]
+[eslint-plugin-jsonc] .angulardoc.json
+[eslint-plugin-jsonc] .cspell.json
+[eslint-plugin-jsonc] .eslintrc.json
+[eslint-plugin-jsonc] .jscpd.json
+[eslint-plugin-jsonc] .stylelintrc.json
+[eslint-plugin-jsonc] angular.json
+[eslint-plugin-jsonc] firebase-rtdb-backup.json
+[eslint-plugin-jsonc] firebase.json
+[eslint-plugin-jsonc] package-lock.json
+[eslint-plugin-jsonc] package.json
+[eslint-plugin-jsonc] tsconfig.app.json
+[eslint-plugin-jsonc] tsconfig.json
+[eslint-plugin-jsonc] tsconfig.spec.json
+[32m✅ Linted [JSON] files with [eslint-plugin-jsonc] successfully - (2.48s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWNLINT.log
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_ESLINT_PLUGIN_JSONC.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdown-link-check v3.10.0] https://megalinter.github.io/v5/descriptors/markdown_markdown_link_check
+- MegaLinter key: [MARKDOWN_MARKDOWN_LINK_CHECK]
+- Rules config: [.markdown-link-check.json]
+[markdown-link-check] README.md
+[32m✅ Linted [MARKDOWN] files with [markdown-link-check] successfully - (0.85s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWN_LINK_CHECK.log
+
+[1m### Processed [MARKDOWN] files[0m
+- Using [markdown-table-formatter v1.3.0] https://megalinter.github.io/v5/descriptors/markdown_markdown_table_formatter
+- MegaLinter key: [MARKDOWN_MARKDOWN_TABLE_FORMATTER]
+- Rules config: identified by [markdown-table-formatter]
+[markdown-table-formatter] README.md
+[32m✅ Linted [MARKDOWN] files with [markdown-table-formatter] successfully - (0.29s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-MARKDOWN_MARKDOWN_TABLE_FORMATTER.log
+
+[1m### Processed [SPELL] files[0m
+- Using [misspell v0.3.4] https://megalinter.github.io/v5/descriptors/spell_misspell
+- MegaLinter key: [SPELL_MISSPELL]
+- Rules config: identified by [misspell]
+[misspell] .angulardoc.json
+[misspell] .browserslistrc
+[misspell] .cspell.json
+[misspell] .editorconfig
+[misspell] .eslintrc.json
+[misspell] .firebaserc
+[misspell] .github/workflows/mega-linter.yml
+[misspell] .gitignore
+[misspell] .htmlhintrc
+[misspell] .jscpd.json
+[misspell] .mega-linter.yml
+[misspell] .stylelintrc.json
+[misspell] README.md
+[misspell] angular.json
+[misspell] firebase-rtdb-backup.json
+[misspell] firebase.json
+[misspell] karma.conf.js
+[misspell] package-lock.json
+[misspell] package.json
+[misspell] src/app/app-routing.module.ts
+[misspell] src/app/app.component.html
+[misspell] src/app/app.component.scss
+[misspell] src/app/app.component.spec.ts
+[misspell] src/app/app.component.ts
+[misspell] src/app/app.module.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts
+[misspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts
+[misspell] src/app/character-sheet/brp/brp.module.ts
+[misspell] src/app/character-sheet/character-sheet.component.html
+[misspell] src/app/character-sheet/character-sheet.component.scss
+[misspell] src/app/character-sheet/character-sheet.component.spec.ts
+[misspell] src/app/character-sheet/character-sheet.component.ts
+[misspell] src/app/mainnav/mainnav.component.html
+[misspell] src/app/mainnav/mainnav.component.scss
+[misspell] src/app/mainnav/mainnav.component.spec.ts
+[misspell] src/app/mainnav/mainnav.component.ts
+[misspell] src/app/rpg-selection/rpg-selection.component.html
+[misspell] src/app/rpg-selection/rpg-selection.component.scss
+[misspell] src/app/rpg-selection/rpg-selection.component.spec.ts
+[misspell] src/app/rpg-selection/rpg-selection.component.ts
+[misspell] src/app/services/data.service.spec.ts
+[misspell] src/app/services/data.service.ts
+[misspell] src/app/services/navigation.service.spec.ts
+[misspell] src/app/services/navigation.service.ts
+[misspell] src/app/side-nav-content/side-nav-content.component.html
+[misspell] src/app/side-nav-content/side-nav-content.component.scss
+[misspell] src/app/side-nav-content/side-nav-content.component.spec.ts
+[misspell] src/app/side-nav-content/side-nav-content.component.ts
+[misspell] src/app/types/testing.ts
+[misspell] src/assets/.gitkeep
+[misspell] src/assets/BRP Logos/Black BRP TM2 transparent.png
+[misspell] src/assets/BRP Logos/Black BRP TM2.png
+[misspell] src/assets/BRP Logos/Red BRP TM2 transparent.png
+[misspell] src/assets/BRP Logos/Red BRP TM2.png
+[misspell] src/environments/environment.prod.ts
+[misspell] src/environments/environment.ts
+[misspell] src/favicon.ico
+[misspell] src/index.html
+[misspell] src/main.ts
+[misspell] src/polyfills.ts
+[misspell] src/styles.scss
+[misspell] src/test.ts
+[misspell] tsconfig.app.json
+[misspell] tsconfig.json
+[misspell] tsconfig.spec.json
+[32m✅ Linted [SPELL] files with [misspell] successfully - (0.13s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-SPELL_MISSPELL.log
+
+[1m### Processed [SPELL] files[0m
+- Using [cspell v5.19.2] https://megalinter.github.io/v5/descriptors/spell_cspell
+- MegaLinter key: [SPELL_CSPELL]
+- Rules config: [/github/workspace/.cspell.json]
+[cspell] .angulardoc.json
+[cspell] .browserslistrc
+[cspell] .cspell.json
+[cspell] .editorconfig
+[cspell] .eslintrc.json
+[cspell] .firebaserc
+[cspell] .github/workflows/mega-linter.yml
+[cspell] .gitignore
+[cspell] .htmlhintrc
+[cspell] .jscpd.json
+[cspell] .mega-linter.yml
+[cspell] .stylelintrc.json
+[cspell] README.md
+[cspell] angular.json
+[cspell] firebase-rtdb-backup.json
+[cspell] firebase.json
+[cspell] karma.conf.js
+[cspell] package-lock.json
+[cspell] package.json
+[cspell] src/app/app-routing.module.ts
+[cspell] src/app/app.component.html
+[cspell] src/app/app.component.scss
+[cspell] src/app/app.component.spec.ts
+[cspell] src/app/app.component.ts
+[cspell] src/app/app.module.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts
+[cspell] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts
+[cspell] src/app/character-sheet/brp/brp.module.ts
+[cspell] src/app/character-sheet/character-sheet.component.html
+[cspell] src/app/character-sheet/character-sheet.component.scss
+[cspell] src/app/character-sheet/character-sheet.component.spec.ts
+[cspell] src/app/character-sheet/character-sheet.component.ts
+[cspell] src/app/mainnav/mainnav.component.html
+[cspell] src/app/mainnav/mainnav.component.scss
+[cspell] src/app/mainnav/mainnav.component.spec.ts
+[cspell] src/app/mainnav/mainnav.component.ts
+[cspell] src/app/rpg-selection/rpg-selection.component.html
+[cspell] src/app/rpg-selection/rpg-selection.component.scss
+[cspell] src/app/rpg-selection/rpg-selection.component.spec.ts
+[cspell] src/app/rpg-selection/rpg-selection.component.ts
+[cspell] src/app/services/data.service.spec.ts
+[cspell] src/app/services/data.service.ts
+[cspell] src/app/services/navigation.service.spec.ts
+[cspell] src/app/services/navigation.service.ts
+[cspell] src/app/side-nav-content/side-nav-content.component.html
+[cspell] src/app/side-nav-content/side-nav-content.component.scss
+[cspell] src/app/side-nav-content/side-nav-content.component.spec.ts
+[cspell] src/app/side-nav-content/side-nav-content.component.ts
+[cspell] src/app/types/testing.ts
+[cspell] src/assets/.gitkeep
+[cspell] src/assets/BRP Logos/Black BRP TM2 transparent.png
+[cspell] src/assets/BRP Logos/Black BRP TM2.png
+[cspell] src/assets/BRP Logos/Red BRP TM2 transparent.png
+[cspell] src/assets/BRP Logos/Red BRP TM2.png
+[cspell] src/environments/environment.prod.ts
+[cspell] src/environments/environment.ts
+[cspell] src/favicon.ico
+[cspell] src/index.html
+[cspell] src/main.ts
+[cspell] src/polyfills.ts
+[cspell] src/styles.scss
+[cspell] src/test.ts
+[cspell] tsconfig.app.json
+[cspell] tsconfig.json
+[cspell] tsconfig.spec.json
+--Error detail:
+ 1/89 ./.angulardoc.json ... 1/89 ./.angulardoc.json 828.65ms
+ 2/89 ./.browserslistrc ... 2/89 ./.browserslistrc 28.88ms
+ 3/89 ./.cspell.json ... 3/89 ./.cspell.json 56.05ms
+ 4/89 ./.editorconfig ... 4/89 ./.editorconfig 8.83ms
+ 5/89 ./.eslintrc.json ... 5/89 ./.eslintrc.json 10.32ms
+ 6/89 ./.firebaserc ... 6/89 ./.firebaserc 6.69ms
+ 7/89 ./.github/workflows/mega-linter.yml ... 7/89 ./.github/workflows/mega-linter.yml 60.32ms
+ 8/89 ./.gitignore ... 8/89 ./.gitignore 22.18ms
+ 9/89 ./.htmlhintrc ... 9/89 ./.htmlhintrc 28.60ms X
+/github/workspace/.htmlhintrc:20:4 - Unknown word (tagname)
+/github/workspace/.htmlhintrc:21:4 - Unknown word (tagname)
+/github/workspace/.htmlhintrc:21:12 - Unknown word (specialchars)
+10/89 ./.jscpd.json ...10/89 ./.jscpd.json 6.40ms
+11/89 ./.mega-linter.yml ...11/89 ./.mega-linter.yml 36.65ms X
+/github/workspace/.mega-linter.yml:13:11 - Unknown word (JSONLINT)
+12/89 ./.stylelintrc.json ...12/89 ./.stylelintrc.json 7.92ms X
+/github/workspace/.stylelintrc.json:2:15 - Unknown word (stylelint)
+13/89 ./README.md ...13/89 ./README.md 94.86ms
+14/89 ./angular.json ...14/89 ./angular.json 55.57ms
+15/89 ./firebase-rtdb-backup.json ...15/89 ./firebase-rtdb-backup.json 8.15ms
+16/89 ./firebase.json ...16/89 ./firebase.json 8.10ms
+17/89 ./karma.conf.js ...17/89 ./karma.conf.js 52.77ms
+18/89 ./package.json ...18/89 ./package.json 29.58ms
+19/89 ./src/app/app-routing.module.ts ...19/89 ./src/app/app-routing.module.ts 23.32ms
+20/89 ./src/app/app.component.html ...20/89 ./src/app/app.component.html 31.21ms
+21/89 ./src/app/app.component.scss ...21/89 ./src/app/app.component.scss 3.01ms
+22/89 ./src/app/app.component.spec.ts ...22/89 ./src/app/app.component.spec.ts 15.23ms
+23/89 ./src/app/app.component.ts ...23/89 ./src/app/app.component.ts 18.22ms
+24/89 ./src/app/app.module.ts ...24/89 ./src/app/app.module.ts 32.44ms
+25/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html ...25/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html 4.43ms
+26/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss ...26/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss 2.71ms
+27/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts ...27/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts 7.20ms
+28/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts ...28/89 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts 9.68ms
+29/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html ...29/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html 5.69ms
+30/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss ...30/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss 3.16ms
+31/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts ...31/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts 8.95ms
+32/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts ...32/89 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts 14.00ms
+33/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html ...33/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html 11.25ms
+34/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss ...34/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss 2.69ms
+35/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts ...35/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts 10.70ms
+36/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts ...36/89 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts 9.88ms
+37/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html ...37/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html 3.55ms
+38/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss ...38/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss 2.53ms
+39/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts ...39/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts 9.74ms
+40/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts ...40/89 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts 7.06ms
+41/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html ...41/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html 3.71ms
+42/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss ...42/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss 3.27ms
+43/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts ...43/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts 9.01ms
+44/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts ...44/89 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts 7.42ms
+45/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html ...45/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html 6.25ms
+46/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss ...46/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss 2.48ms
+47/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts ...47/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts 6.75ms
+48/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts ...48/89 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts 5.75ms
+49/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html ...49/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html 3.33ms
+50/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss ...50/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss 3.79ms
+51/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts ...51/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts 7.10ms
+52/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts ...52/89 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts 11.95ms
+53/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html ...53/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html 3.46ms
+54/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss ...54/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss 2.47ms
+55/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts ...55/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts 7.16ms
+56/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts ...56/89 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts 5.90ms
+57/89 ./src/app/character-sheet/brp/brp.module.ts ...57/89 ./src/app/character-sheet/brp/brp.module.ts 17.07ms
+58/89 ./src/app/character-sheet/character-sheet.component.html ...58/89 ./src/app/character-sheet/character-sheet.component.html 9.73ms
+59/89 ./src/app/character-sheet/character-sheet.component.scss ...59/89 ./src/app/character-sheet/character-sheet.component.scss 2.63ms
+60/89 ./src/app/character-sheet/character-sheet.component.spec.ts ...60/89 ./src/app/character-sheet/character-sheet.component.spec.ts 11.87ms
+61/89 ./src/app/character-sheet/character-sheet.component.ts ...61/89 ./src/app/character-sheet/character-sheet.component.ts 17.87ms
+62/89 ./src/app/mainnav/mainnav.component.html ...62/89 ./src/app/mainnav/mainnav.component.html 15.61ms
+63/89 ./src/app/mainnav/mainnav.component.scss ...63/89 ./src/app/mainnav/mainnav.component.scss 8.90ms
+64/89 ./src/app/mainnav/mainnav.component.spec.ts ...64/89 ./src/app/mainnav/mainnav.component.spec.ts 12.95ms
+65/89 ./src/app/mainnav/mainnav.component.ts ...65/89 ./src/app/mainnav/mainnav.component.ts 27.32ms
+66/89 ./src/app/rpg-selection/rpg-selection.component.html ...66/89 ./src/app/rpg-selection/rpg-selection.component.html 8.13ms
+67/89 ./src/app/rpg-selection/rpg-selection.component.scss ...67/89 ./src/app/rpg-selection/rpg-selection.component.scss 6.64ms
+68/89 ./src/app/rpg-selection/rpg-selection.component.spec.ts ...68/89 ./src/app/rpg-selection/rpg-selection.component.spec.ts 8.16ms
+69/89 ./src/app/rpg-selection/rpg-selection.component.ts ...69/89 ./src/app/rpg-selection/rpg-selection.component.ts 9.55ms
+70/89 ./src/app/services/data.service.spec.ts ...70/89 ./src/app/services/data.service.spec.ts 12.87ms
+71/89 ./src/app/services/data.service.ts ...71/89 ./src/app/services/data.service.ts 21.01ms
+72/89 ./src/app/services/navigation.service.spec.ts ...72/89 ./src/app/services/navigation.service.spec.ts 18.70ms
+73/89 ./src/app/services/navigation.service.ts ...73/89 ./src/app/services/navigation.service.ts 11.00ms
+74/89 ./src/app/side-nav-content/side-nav-content.component.html ...74/89 ./src/app/side-nav-content/side-nav-content.component.html 27.42ms
+75/89 ./src/app/side-nav-content/side-nav-content.component.scss ...75/89 ./src/app/side-nav-content/side-nav-content.component.scss 4.35ms
+76/89 ./src/app/side-nav-content/side-nav-content.component.spec.ts ...76/89 ./src/app/side-nav-content/side-nav-content.component.spec.ts 10.72ms
+77/89 ./src/app/side-nav-content/side-nav-content.component.ts ...77/89 ./src/app/side-nav-content/side-nav-content.component.ts 9.47ms
+78/89 ./src/app/types/testing.ts ...78/89 ./src/app/types/testing.ts 9.90ms
+79/89 ./src/assets/.gitkeep ...79/89 ./src/assets/.gitkeep 9.76ms
+80/89 ./src/environments/environment.prod.ts ...80/89 ./src/environments/environment.prod.ts 18.17ms
+81/89 ./src/environments/environment.ts ...81/89 ./src/environments/environment.ts 14.51ms
+82/89 ./src/index.html ...82/89 ./src/index.html 9.65ms
+83/89 ./src/main.ts ...83/89 ./src/main.ts 6.14ms
+84/89 ./src/polyfills.ts ...84/89 ./src/polyfills.ts 45.19ms
+85/89 ./src/styles.scss ...85/89 ./src/styles.scss 5.61ms
+86/89 ./src/test.ts ...86/89 ./src/test.ts 10.60ms
+87/89 ./tsconfig.app.json ...87/89 ./tsconfig.app.json 13.90ms
+88/89 ./tsconfig.json ...88/89 ./tsconfig.json 9.90ms
+89/89 ./tsconfig.spec.json ...89/89 ./tsconfig.spec.json 5.03ms
+CSpell: Files checked: 89, Issues found: 5 in 3 files
+
+[33m✅ Linted [SPELL] files with [cspell]: Found 5 non blocking error(s) - (3.24s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/WARNING-SPELL_CSPELL.log
+
+[1m### Processed [JSON] files[0m
+- Using [v8r v0.6.1] https://megalinter.github.io/v5/descriptors/json_v8r
+- MegaLinter key: [JSON_V8R]
+- Rules config: identified by [v8r]
+[v8r] .angulardoc.json - SUCCESS - 0 error(s)
+[v8r] .cspell.json - SUCCESS - 0 error(s)
+[v8r] .eslintrc.json - SUCCESS - 0 error(s)
+[v8r] .jscpd.json - SUCCESS - 0 error(s)
+[v8r] .stylelintrc.json - SUCCESS - 0 error(s)
+[v8r] angular.json - SUCCESS - 0 error(s)
+[v8r] firebase-rtdb-backup.json - SUCCESS - 0 error(s)
+[v8r] firebase.json - SUCCESS - 0 error(s)
+[v8r] package-lock.json - SUCCESS - 0 error(s)
+[v8r] package.json - SUCCESS - 0 error(s)
+[v8r] tsconfig.app.json - SUCCESS - 0 error(s)
+[v8r] tsconfig.json - SUCCESS - 0 error(s)
+[v8r] tsconfig.spec.json - SUCCESS - 0 error(s)
+[32m✅ Linted [JSON] files with [v8r] successfully - (9.46s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_V8R.log
+
+[1m### Processed [TYPESCRIPT] files[0m
+- Using [eslint v8.11.0] https://megalinter.github.io/v5/descriptors/typescript_eslint
+- MegaLinter key: [TYPESCRIPT_ES]
+- Rules config: [/github/workspace/.eslintrc.json]
+[36m[eslint] src/app/app-routing.module.ts - FIXED[0m
+[36m[eslint] src/app/app.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/app.component.ts - FIXED[0m
+[36m[eslint] src/app/app.module.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/brp/brp.module.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/character-sheet.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/character-sheet/character-sheet.component.ts - FIXED[0m
+[36m[eslint] src/app/mainnav/mainnav.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/mainnav/mainnav.component.ts - FIXED[0m
+[36m[eslint] src/app/rpg-selection/rpg-selection.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/rpg-selection/rpg-selection.component.ts - FIXED[0m
+[36m[eslint] src/app/services/data.service.spec.ts - FIXED[0m
+[36m[eslint] src/app/services/data.service.ts - FIXED[0m
+[36m[eslint] src/app/services/navigation.service.spec.ts - FIXED[0m
+[36m[eslint] src/app/services/navigation.service.ts - FIXED[0m
+[36m[eslint] src/app/side-nav-content/side-nav-content.component.spec.ts - FIXED[0m
+[36m[eslint] src/app/side-nav-content/side-nav-content.component.ts - FIXED[0m
+[eslint] src/app/types/testing.ts
+[36m[eslint] src/environments/environment.prod.ts - FIXED[0m
+[36m[eslint] src/environments/environment.ts - FIXED[0m
+[36m[eslint] src/main.ts - FIXED[0m
+[36m[eslint] src/polyfills.ts - FIXED[0m
+[36m[eslint] src/test.ts - FIXED[0m
+--Error detail:
+
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts
+  28:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+  32:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+/github/workspace/src/app/side-nav-content/side-nav-content.component.ts
+  24:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+
+✖ 3 problems (3 errors, 0 warnings)
+
+
+[33m✅ Linted [TYPESCRIPT] files with [eslint]: Found 3 non blocking error(s) - (3.55s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/WARNING-TYPESCRIPT_ES.log
+
+[1m### Processed [JSON] files[0m
+- Using [prettier v2.6.0] https://megalinter.github.io/v5/descriptors/json_prettier
+- MegaLinter key: [JSON_PRETTIER]
+- Rules config: identified by [prettier]
+[prettier] .angulardoc.json
+[prettier] .cspell.json
+[prettier] .eslintrc.json
+[prettier] .jscpd.json
+[prettier] .stylelintrc.json
+[prettier] angular.json
+[prettier] firebase-rtdb-backup.json
+[prettier] firebase.json
+[prettier] package-lock.json
+[prettier] package.json
+[prettier] tsconfig.app.json
+[prettier] tsconfig.json
+[prettier] tsconfig.spec.json
+[32m✅ Linted [JSON] files with [prettier] successfully - (1.38s)[0m
+
+[1m### Processed [YAML] files[0m
+- Using [prettier v2.6.0] https://megalinter.github.io/v5/descriptors/yaml_prettier
+- MegaLinter key: [YAML_PRETTIER]
+- Rules config: identified by [prettier]
+[prettier] .github/workflows/mega-linter.yml
+[prettier] .mega-linter.yml
+[32m✅ Linted [YAML] files with [prettier] successfully - (0.57s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-JSON_PRETTIER.log
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-YAML_PRETTIER.log
+
+[1m### Processed [YAML] files[0m
+- Using [v8r v0.6.1] https://megalinter.github.io/v5/descriptors/yaml_v8r
+- MegaLinter key: [YAML_V8R]
+- Rules config: identified by [v8r]
+[v8r] .github/workflows/mega-linter.yml - SUCCESS - 0 error(s)
+[v8r] .mega-linter.yml - SUCCESS - 0 error(s)
+[32m✅ Linted [YAML] files with [v8r] successfully - (2.57s)[0m
+[Text Reporter] Generated TEXT report: /github/workspace/report/linters_logs/SUCCESS-YAML_V8R.log
+
++----SUMMARY-----+--------------------------+---------------+-------+-------+--------+--------------+
+| Descriptor     | Linter                   | Mode          | Files | Fixed | Errors | Elapsed time |
++----------------+--------------------------+---------------+-------+-------+--------+--------------+
+| ✅ ACTION      | actionlint               | list_of_files |     1 |       |      0 |        0.02s |
+| ✅ COPYPASTE   | jscpd                    | project       |   n/a |       |      0 |         1.3s |
+| ✅ CREDENTIALS | secretlint               | project       |   n/a |       |      0 |        1.13s |
+| ◬ CSS          | stylelint                | list_of_files |    14 |     0 |      1 |        1.19s |
+| ◬ EDITORCONFIG | editorconfig-checker     | list_of_files |    95 |       |      1 |        1.09s |
+| ✅ GIT         | git_diff                 | project       |   n/a |       |      0 |        0.01s |
+| ◬ HTML         | htmlhint                 | list_of_files |    14 |       |     69 |        0.28s |
+| ✅ JAVASCRIPT  | eslint                   | list_of_files |     1 |     0 |      0 |        2.46s |
+| ✅ JSON        | eslint-plugin-jsonc      | list_of_files |    13 |     0 |      0 |        2.48s |
+| ✅ JSON        | prettier                 | list_of_files |    13 |     0 |      0 |        1.38s |
+| ✅ JSON        | v8r                      | file          |    13 |       |      0 |        9.46s |
+| ✅ MARKDOWN    | markdownlint             | list_of_files |     1 |     0 |      0 |        0.33s |
+| ✅ MARKDOWN    | markdown-link-check      | list_of_files |     1 |       |      0 |        0.85s |
+| ✅ MARKDOWN    | markdown-table-formatter | list_of_files |     1 |     0 |      0 |        0.29s |
+| ◬ SPELL        | cspell                   | list_of_files |    95 |       |      5 |        3.24s |
+| ✅ SPELL       | misspell                 | list_of_files |    95 |     0 |      0 |        0.13s |
+| ◬ TYPESCRIPT   | eslint                   | list_of_files |    39 |    38 |      3 |        3.55s |
+| ✅ YAML        | prettier                 | list_of_files |     2 |     0 |      0 |        0.57s |
+| ✅ YAML        | v8r                      | file          |     2 |       |      0 |        2.57s |
++----------------+--------------------------+---------------+-------+-------+--------+--------------+
+
+[34mYou could have same capabilities but better runtime performances if you use a MegaLinter flavor:[0m
+- [javascript] megalinter/megalinter/flavors/javascript@v5 (50 linters) https://megalinter.github.io/flavors/javascript/
+
