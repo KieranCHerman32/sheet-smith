@@ -1,130 +1,0 @@
-Results of cspell linter (version 5.19.2)
-See documentation on https://megalinter.github.io/descriptors/spell_cspell/
------------------------------------------------
-
-❌ [ERROR] for workspace /github/workspace
-Linter raw log:
- 1/92 ./.angulardoc.json ... 1/92 ./.angulardoc.json 791.23ms
- 2/92 ./.browserslistrc ... 2/92 ./.browserslistrc 22.25ms
- 3/92 ./.cspell.json ... 3/92 ./.cspell.json 31.00ms
- 4/92 ./.editorconfig ... 4/92 ./.editorconfig 9.29ms
- 5/92 ./.eslintrc.json ... 5/92 ./.eslintrc.json 10.17ms
- 6/92 ./.firebaserc ... 6/92 ./.firebaserc 6.46ms
- 7/92 ./.github/workflows/mega-linter.yml ... 7/92 ./.github/workflows/mega-linter.yml 58.40ms
- 8/92 ./.gitignore ... 8/92 ./.gitignore 22.06ms
- 9/92 ./.htmlhintrc ... 9/92 ./.htmlhintrc 46.36ms X
-/github/workspace/.htmlhintrc:20:4 - Unknown word (tagname)
-/github/workspace/.htmlhintrc:21:4 - Unknown word (tagname)
-/github/workspace/.htmlhintrc:21:12 - Unknown word (specialchars)
-10/92 ./.jscpd.json ...10/92 ./.jscpd.json 5.67ms
-11/92 ./.mega-linter.yml ...11/92 ./.mega-linter.yml 32.14ms X
-/github/workspace/.mega-linter.yml:11:11 - Unknown word (JSONLINT)
-12/92 ./.scss-lint.yml ...12/92 ./.scss-lint.yml 6.08ms
-13/92 ./.stylelintrc.json ...13/92 ./.stylelintrc.json 13.52ms X
-/github/workspace/.stylelintrc.json:2:15 - Unknown word (stylelint)
-14/92 ./README.md ...14/92 ./README.md 66.83ms
-15/92 ./angular.json ...15/92 ./angular.json 44.37ms
-16/92 ./firebase-rtdb-backup.json ...16/92 ./firebase-rtdb-backup.json 10.25ms
-17/92 ./firebase.json ...17/92 ./firebase.json 7.90ms
-18/92 ./karma.conf.js ...18/92 ./karma.conf.js 52.17ms
-19/92 ./package.json ...19/92 ./package.json 25.12ms
-20/92 ./src/app/app-routing.module.ts ...20/92 ./src/app/app-routing.module.ts 26.84ms
-21/92 ./src/app/app.component.html ...21/92 ./src/app/app.component.html 25.26ms
-22/92 ./src/app/app.component.scss ...22/92 ./src/app/app.component.scss 2.93ms
-23/92 ./src/app/app.component.spec.ts ...23/92 ./src/app/app.component.spec.ts 13.61ms
-24/92 ./src/app/app.component.ts ...24/92 ./src/app/app.component.ts 8.86ms
-25/92 ./src/app/app.module.ts ...25/92 ./src/app/app.module.ts 42.94ms
-26/92 ./src/app/brp-data.service.spec.ts ...26/92 ./src/app/brp-data.service.spec.ts 6.63ms
-27/92 ./src/app/brp-data.service.ts ...27/92 ./src/app/brp-data.service.ts 5.04ms
-28/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html ...28/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html 4.19ms
-29/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss ...29/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss 2.65ms
-30/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts ...30/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts 13.52ms
-31/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts ...31/92 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts 6.16ms
-32/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html ...32/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html 11.20ms
-33/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss ...33/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss 2.71ms
-34/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts ...34/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts 7.07ms
-35/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts ...35/92 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts 30.69ms
-36/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html ...36/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html 12.39ms
-37/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss ...37/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss 2.63ms
-38/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts ...38/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts 11.01ms
-39/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts ...39/92 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts 6.15ms
-40/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html ...40/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html 4.56ms
-41/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss ...41/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss 2.55ms
-42/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts ...42/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts 11.25ms
-43/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts ...43/92 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts 7.14ms
-44/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html ...44/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html 7.81ms
-45/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss ...45/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss 6.17ms
-46/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts ...46/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts 13.28ms
-47/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts ...47/92 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts 6.08ms
-48/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html ...48/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html 3.67ms
-49/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss ...49/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss 2.63ms
-50/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts ...50/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts 12.71ms
-51/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts ...51/92 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts 5.74ms
-52/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html ...52/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html 3.21ms
-53/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss ...53/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss 2.39ms
-54/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts ...54/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts 6.61ms
-55/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts ...55/92 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts 5.67ms
-56/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html ...56/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html 5.44ms
-57/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss ...57/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss 2.40ms
-58/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts ...58/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts 8.33ms
-59/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts ...59/92 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts 6.47ms
-60/92 ./src/app/character-sheet/brp/brp.module.ts ...60/92 ./src/app/character-sheet/brp/brp.module.ts 10.55ms
-61/92 ./src/app/character-sheet/character-sheet.component.html ...61/92 ./src/app/character-sheet/character-sheet.component.html 9.06ms
-62/92 ./src/app/character-sheet/character-sheet.component.scss ...62/92 ./src/app/character-sheet/character-sheet.component.scss 5.27ms
-63/92 ./src/app/character-sheet/character-sheet.component.spec.ts ...63/92 ./src/app/character-sheet/character-sheet.component.spec.ts 10.50ms
-64/92 ./src/app/character-sheet/character-sheet.component.ts ...64/92 ./src/app/character-sheet/character-sheet.component.ts 8.12ms
-65/92 ./src/app/mainnav/mainnav.component.html ...65/92 ./src/app/mainnav/mainnav.component.html 10.08ms
-66/92 ./src/app/mainnav/mainnav.component.scss ...66/92 ./src/app/mainnav/mainnav.component.scss 17.01ms
-67/92 ./src/app/mainnav/mainnav.component.spec.ts ...67/92 ./src/app/mainnav/mainnav.component.spec.ts 22.44ms
-68/92 ./src/app/mainnav/mainnav.component.ts ...68/92 ./src/app/mainnav/mainnav.component.ts 32.90ms
-69/92 ./src/app/rpg-selection/rpg-selection.component.html ...69/92 ./src/app/rpg-selection/rpg-selection.component.html 7.00ms
-70/92 ./src/app/rpg-selection/rpg-selection.component.scss ...70/92 ./src/app/rpg-selection/rpg-selection.component.scss 3.04ms
-71/92 ./src/app/rpg-selection/rpg-selection.component.spec.ts ...71/92 ./src/app/rpg-selection/rpg-selection.component.spec.ts 11.71ms
-72/92 ./src/app/rpg-selection/rpg-selection.component.ts ...72/92 ./src/app/rpg-selection/rpg-selection.component.ts 14.49ms
-73/92 ./src/app/services/data.service.spec.ts ...73/92 ./src/app/services/data.service.spec.ts 5.55ms
-74/92 ./src/app/services/data.service.ts ...74/92 ./src/app/services/data.service.ts 27.68ms
-75/92 ./src/app/services/navigation.service.spec.ts ...75/92 ./src/app/services/navigation.service.spec.ts 5.66ms
-76/92 ./src/app/services/navigation.service.ts ...76/92 ./src/app/services/navigation.service.ts 12.66ms
-77/92 ./src/app/side-nav-content/side-nav-content.component.html ...77/92 ./src/app/side-nav-content/side-nav-content.component.html 11.30ms
-78/92 ./src/app/side-nav-content/side-nav-content.component.scss ...78/92 ./src/app/side-nav-content/side-nav-content.component.scss 4.38ms
-79/92 ./src/app/side-nav-content/side-nav-content.component.spec.ts ...79/92 ./src/app/side-nav-content/side-nav-content.component.spec.ts 6.43ms
-80/92 ./src/app/side-nav-content/side-nav-content.component.ts ...80/92 ./src/app/side-nav-content/side-nav-content.component.ts 14.70ms
-81/92 ./src/app/types/testing.ts ...81/92 ./src/app/types/testing.ts 9.18ms
-82/92 ./src/assets/.gitkeep ...82/92 ./src/assets/.gitkeep 2.35ms
-83/92 ./src/environments/environment.prod.ts ...83/92 ./src/environments/environment.prod.ts 8.73ms
-84/92 ./src/environments/environment.ts ...84/92 ./src/environments/environment.ts 13.62ms
-85/92 ./src/index.html ...85/92 ./src/index.html 7.27ms
-86/92 ./src/main.ts ...86/92 ./src/main.ts 10.83ms
-87/92 ./src/polyfills.ts ...87/92 ./src/polyfills.ts 31.80ms
-88/92 ./src/styles.scss ...88/92 ./src/styles.scss 5.23ms
-89/92 ./src/test.ts ...89/92 ./src/test.ts 9.93ms
-90/92 ./tsconfig.app.json ...90/92 ./tsconfig.app.json 11.09ms
-91/92 ./tsconfig.json ...91/92 ./tsconfig.json 9.32ms
-92/92 ./tsconfig.spec.json ...92/92 ./tsconfig.spec.json 4.74ms
-CSpell: Files checked: 92, Issues found: 5 in 3 files
-
-
-You can skip this misspellings by defining the following .cspell.json file at the root of your repository
-Of course, please correct real typos before :)
-
-{
-    "version": "0.2",
-    "language": "en",
-    "ignorePaths": [
-        "**/node_modules/**",
-        "**/vscode-extension/**",
-        "**/.git/**",
-        ".vscode",
-        "package-lock.json",
-        "report"
-    ],
-    "words": [
-        "JSONLINT",
-        "specialchars",
-        "stylelint",
-        "tagname"
-    ]
-}
-
-
-You can also copy-paste report/.cspell.json at the root of your repository
