@@ -1,4 +1,4 @@
-Results of htmlhint linter (version 1.1.2)
+Results of htmlhint linter (version 1.1.4)
 See documentation on https://megalinter.github.io/descriptors/html_htmlhint/
 -----------------------------------------------
 
@@ -179,5 +179,5 @@ Linter raw log:
 [37m      L14 |[90m  <app-root></app-root>[39m
 [37m           ^ [31mPlease use tab for indentation. (space-tab-mixed-disabled)[39m
 
-Scanned 14 files, found 69 errors in 4 files (47 ms)
+Scanned 14 files, found 69 errors in 4 files (53 ms)
 

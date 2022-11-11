@@ -1,13 +1,15 @@
-Results of editorconfig-checker linter (version 2.3.5)
+Results of editorconfig-checker linter (version 2.4.0)
 See documentation on https://megalinter.github.io/descriptors/editorconfig_editorconfig_checker/
 -----------------------------------------------
 
 ❌ [ERROR] for workspace /github/workspace
 Linter raw log:
+[33;1m.angulardoc.json:[33;0m
+[31;1m	Final newline expected[33;0m
 [33;1m.firebaserc:[33;0m
-[31;1m	Wrong line endings or new final newline[33;0m
+[31;1m	Final newline expected[33;0m
 [33;1m.gitignore:[33;0m
-[31;1m	Wrong line endings or new final newline[33;0m
+[31;1m	Final newline expected[33;0m
 [33;1mkarma.conf.js:[33;0m
 [31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -18,7 +20,6 @@ Linter raw log:
 [31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
-
 [31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -49,6 +50,56 @@ Linter raw log:
 [31;1m	41: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	42: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	43: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/app-routing.module.ts:[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	26: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	30: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/app.component.spec.ts:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	26: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	30: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/app.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/app.module.ts:[33;0m
 [31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -82,7 +133,50 @@ Linter raw log:
 [31;1m	60: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	61: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	62: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts:[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -99,11 +193,229 @@ Linter raw log:
 [31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	32: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/brp/brp.module.ts:[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/character-sheet.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/character-sheet/character-sheet.component.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/mainnav/mainnav.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/mainnav/mainnav.component.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/rpg-selection/rpg-selection.component.spec.ts:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/rpg-selection/rpg-selection.component.ts:[33;0m
 [31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -119,7 +431,139 @@ Linter raw log:
 [31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/services/data.service.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/services/data.service.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	26: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	30: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	31: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	32: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	33: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	34: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	36: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	37: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	38: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	39: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	40: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	41: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	42: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	43: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	44: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	45: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	47: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	48: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	49: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	50: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	51: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	52: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	53: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	54: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	55: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	56: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	57: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	58: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	59: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	60: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	61: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	63: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	64: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	65: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	66: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	67: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	68: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	69: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	71: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	72: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	73: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	74: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	75: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	76: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	78: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	79: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	80: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	81: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	82: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	83: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	84: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	85: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	86: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	87: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/services/navigation.service.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/services/navigation.service.ts:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	27: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	28: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	29: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/side-nav-content/side-nav-content.component.spec.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	10: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	11: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	14: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	16: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	17: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	18: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	22: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/side-nav-content/side-nav-content.component.ts:[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	13: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -129,6 +573,40 @@ Linter raw log:
 [31;1m	23: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	24: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	25: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FATECoreSharSheet.ts:[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	9: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	15: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateAspect.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateAspectsMain.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateConsequenceSlot.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateId.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateSkill.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateSkillLevel.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateStressConsequences.ts:[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateStressTrack.ts:[33;0m
+[31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	5: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/app/types/FATE Core/FateStuntExtras.ts:[33;0m
+[31;1m	4: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [33;1msrc/app/types/testing.ts:[33;0m
 [31;1m	2: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	3: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
@@ -166,7 +644,15 @@ Linter raw log:
 [31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/main.ts:[33;0m
+[31;1m	8: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	12: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[33;1msrc/test.ts:[33;0m
+[31;1m	6: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	7: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	19: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	20: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
+[31;1m	21: Wrong amount of left-padding spaces(want multiple of 2)[33;0m
 [31;1m
-150 errors found[33;0m
-
+597 errors found[33;0m
 

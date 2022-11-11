@@ -7,7 +7,7 @@ describe('RpgSelectionComponent', () => {
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			declarations: [RpgSelectionComponent]
+			declarations: [RpgSelectionComponent],
 		}).compileComponents();
 	});
 

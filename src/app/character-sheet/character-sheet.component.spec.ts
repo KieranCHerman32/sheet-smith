@@ -8,7 +8,7 @@ describe('CharacterSheetComponent', () => {
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			declarations: [CharacterSheetComponent]
+			declarations: [CharacterSheetComponent],
 		})
 			.compileComponents();
 	});
