@@ -4,7 +4,7 @@ import { DataService } from './../services/data.service';
 @Component({
 	selector: 'app-rpg-selection',
 	templateUrl: './rpg-selection.component.html',
-	styleUrls: ['./rpg-selection.component.scss']
+	styleUrls: ['./rpg-selection.component.scss'],
 })
 export class RpgSelectionComponent implements OnInit {
 	sheetData: any = [];

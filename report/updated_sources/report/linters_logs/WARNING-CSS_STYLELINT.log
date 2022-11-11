@@ -1,23 +1,23 @@
-Results of stylelint linter (version 14.6.0)
+Results of stylelint linter (version 14.9.1)
 See documentation on https://megalinter.github.io/descriptors/css_stylelint/
 -----------------------------------------------
 
 ❌ [ERROR] for workspace /github/workspace
 Linter raw log:
-/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/character-sheet/character-sheet.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/mainnav/mainnav.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/side-nav-content/side-nav-content.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/rpg-selection/rpg-selection.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/styles.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/character-sheet.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 /github/workspace/src/app/app.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
-/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/rpg-selection/rpg-selection.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/side-nav-content/side-nav-content.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/styles.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/mainnav/mainnav.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 /github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
+/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss: When linting something other than CSS, you should install an appropriate syntax, e.g. "postcss-scss", and use the "customSyntax" option
 
 src/app/app.component.scss
  [2m1:1[22m  [31m[31m✖[39m  Unexpected empty source  [2mno-empty-source[22m

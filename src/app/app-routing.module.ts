@@ -7,7 +7,7 @@ import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 const routes: Routes = [
 	{
 		path: 'rpg-select',
-		component: RpgSelectionComponent
+		component: RpgSelectionComponent,
 	},
 	{
 		path: 'char-sheet',
@@ -15,19 +15,19 @@ const routes: Routes = [
 		children: [
 			{
 				path: 'brp',
-				component: BasicRoleplayingSystemComponent
-			}
-		]
+				component: BasicRoleplayingSystemComponent,
+			},
+		],
 	},
 	{
 		path: '',
 		redirectTo: 'rpg-select',
-		pathMatch: 'full'
-	}
+		pathMatch: 'full',
+	},
 ];
 
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
-	exports: [RouterModule]
+	exports: [RouterModule],
 })
 export class AppRoutingModule {}

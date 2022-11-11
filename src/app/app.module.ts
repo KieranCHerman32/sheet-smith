@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import {
 	ScreenTrackingService,
-	UserTrackingService
+	UserTrackingService,
 } from '@angular/fire/analytics';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAnalyticsModule } from '@angular/fire/compat/analytics';
@@ -35,7 +35,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		CharacterSheetComponent,
 		MainnavComponent,
 		RpgSelectionComponent,
-		SideNavContentComponent
+		SideNavContentComponent,
 	],
 	imports: [
 		AngularFireAnalyticsModule,
@@ -56,9 +56,9 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MatSelectModule,
 		MatSidenavModule,
 		MatTableModule,
-		MatToolbarModule
+		MatToolbarModule,
 	],
 	providers: [ScreenTrackingService, UserTrackingService],
-	bootstrap: [AppComponent]
+	bootstrap: [AppComponent],
 })
 export class AppModule {}

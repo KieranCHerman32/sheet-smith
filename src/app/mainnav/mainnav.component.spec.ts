@@ -8,7 +8,7 @@ describe('MainnavComponent', () => {
 
 	beforeEach(async () => {
 		await TestBed.configureTestingModule({
-			declarations: [MainnavComponent]
+			declarations: [MainnavComponent],
 		})
 			.compileComponents();
 	});
