@@ -1,0 +1,37 @@
+{
+  "charSheets": {
+    "brp": {
+      "components": {
+        "armor": {
+          "nm": "Armor",
+          "position": 6
+        },
+        "characteristics": {
+          "nm": "Characteristics",
+          "position": 1
+        },
+        "derived-characteristics": {
+          "nm": "Derived Characteristics",
+          "position": 2
+        },
+        "equipment": {
+          "nm": "Equipment",
+          "position": 4
+        },
+        "identity": {
+          "nm": "Identity",
+          "position": 0
+        },
+        "skills": {
+          "nm": "Skills",
+          "position": 3
+        },
+        "weapons-shields": {
+          "nm": "Weapons & Shields",
+          "position": 5
+        }
+      },
+      "nm": "Basic Roleplaying System"
+    }
+  }
+}

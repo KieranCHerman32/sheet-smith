@@ -3,23 +3,23 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MainnavComponent } from './mainnav.component';
 
 describe('MainnavComponent', () => {
-  let component: MainnavComponent;
-  let fixture: ComponentFixture<MainnavComponent>;
+	let component: MainnavComponent;
+	let fixture: ComponentFixture<MainnavComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ MainnavComponent ]
-    })
-    .compileComponents();
-  });
+	beforeEach(async () => {
+		await TestBed.configureTestingModule({
+			declarations: [MainnavComponent],
+		})
+			.compileComponents();
+	});
 
-  beforeEach(() => {
-    fixture = TestBed.createComponent(MainnavComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+	beforeEach(() => {
+		fixture = TestBed.createComponent(MainnavComponent);
+		component = fixture.componentInstance;
+		fixture.detectChanges();
+	});
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+	it('should create', () => {
+		expect(component).toBeTruthy();
+	});
 });
