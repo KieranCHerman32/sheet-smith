@@ -1,17 +1,18 @@
-Results of eslint linter (version 8.11.0)
+Results of eslint linter (version 8.19.0)
 See documentation on https://megalinter.github.io/descriptors/typescript_eslint/
 -----------------------------------------------
 
 ❌ [ERROR] for workspace /github/workspace
 Linter raw log:
 
-/github/workspace/src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts
-  28:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
-  32:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+Oops! Something went wrong! :(
 
-/github/workspace/src/app/side-nav-content/side-nav-content.component.ts
-  24:1  error  Mixed spaces and tabs  no-mixed-spaces-and-tabs
+ESLint: 8.19.0
 
-✖ 3 problems (3 errors, 0 warnings)
+ESLint couldn't find the config "xo" to extend from. Please check that the name of the config is correct.
+
+The config "xo" was referenced from the config file in "/github/workspace/.eslintrc.json".
+
+If you still have problems, please stop by https://eslint.org/chat/help to chat with the team.
 
 
