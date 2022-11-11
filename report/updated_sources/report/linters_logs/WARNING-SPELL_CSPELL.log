@@ -1,137 +1,0 @@
-Results of cspell linter (version 6.2.3)
-See documentation on https://megalinter.github.io/descriptors/spell_cspell/
------------------------------------------------
-
-❌ [ERROR] for workspace /github/workspace
-Linter raw log:
- 1/99 ./.angulardoc.json 871.11ms
- 2/99 ./.browserslistrc 25.56ms
- 3/99 ./.cspell.json 33.47ms
- 4/99 ./.editorconfig 16.84ms
- 5/99 ./.eslintrc.json 9.98ms
- 6/99 ./.firebaserc 4.23ms
- 7/99 ./.github/workflows/mega-linter.yml 66.11ms
- 8/99 ./.gitignore 19.70ms
- 9/99 ./.htmlhintrc 22.57ms X
-/github/workspace/.htmlhintrc:20:4 - Unknown word (tagname)
-/github/workspace/.htmlhintrc:21:4 - Unknown word (tagname)
-/github/workspace/.htmlhintrc:21:12 - Unknown word (specialchars)
-10/99 ./.jscpd.json 6.44ms
-11/99 ./.mega-linter.yml 23.23ms X
-/github/workspace/.mega-linter.yml:13:11 - Unknown word (JSONLINT)
-12/99 ./.stylelintrc.json 9.89ms X
-/github/workspace/.stylelintrc.json:2:15 - Unknown word (stylelint)
-13/99 ./README.md 103.61ms
-14/99 ./angular.json 33.74ms
-15/99 ./firebase-rtdb-backup.json 10.84ms
-16/99 ./firebase.json 7.94ms
-17/99 ./karma.conf.js 56.66ms
-18/99 ./package.json 19.33ms
-19/99 ./src/app/app-routing.module.ts 20.94ms
-20/99 ./src/app/app.component.html 21.41ms
-21/99 ./src/app/app.component.scss 6.68ms
-22/99 ./src/app/app.component.spec.ts 12.94ms
-23/99 ./src/app/app.component.ts 6.73ms
-24/99 ./src/app/app.module.ts 24.31ms
-25/99 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.html 3.74ms
-26/99 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.scss 2.13ms
-27/99 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.spec.ts 6.44ms
-28/99 ./src/app/character-sheet/brp/basic-roleplaying-system/armor/armor.component.ts 5.34ms
-29/99 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.html 11.00ms
-30/99 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.scss 2.14ms
-31/99 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.spec.ts 6.50ms
-32/99 ./src/app/character-sheet/brp/basic-roleplaying-system/basic-roleplaying-system.component.ts 13.82ms
-33/99 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.html 2.93ms
-34/99 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.scss 2.13ms
-35/99 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.spec.ts 6.42ms
-36/99 ./src/app/character-sheet/brp/basic-roleplaying-system/characteristics/characteristics.component.ts 5.39ms
-37/99 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.html 3.05ms
-38/99 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.scss 2.12ms
-39/99 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.spec.ts 6.51ms
-40/99 ./src/app/character-sheet/brp/basic-roleplaying-system/derived-characteristics/derived-characteristics.component.ts 5.93ms
-41/99 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.html 8.60ms
-42/99 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.scss 2.11ms
-43/99 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.spec.ts 13.18ms
-44/99 ./src/app/character-sheet/brp/basic-roleplaying-system/equipment/equipment.component.ts 5.66ms
-45/99 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.html 13.84ms
-46/99 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.scss 2.09ms
-47/99 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.spec.ts 12.12ms
-48/99 ./src/app/character-sheet/brp/basic-roleplaying-system/identity/identity.component.ts 5.26ms
-49/99 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.html 2.80ms
-50/99 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.scss 2.05ms
-51/99 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.spec.ts 6.39ms
-52/99 ./src/app/character-sheet/brp/basic-roleplaying-system/skills/skills.component.ts 5.20ms
-53/99 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.html 2.89ms
-54/99 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.scss 2.29ms
-55/99 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.spec.ts 13.07ms
-56/99 ./src/app/character-sheet/brp/basic-roleplaying-system/weapons-shields/weapons-shields.component.ts 21.84ms
-57/99 ./src/app/character-sheet/brp/brp.module.ts 29.81ms
-58/99 ./src/app/character-sheet/character-sheet.component.html 3.58ms
-59/99 ./src/app/character-sheet/character-sheet.component.scss 2.11ms
-60/99 ./src/app/character-sheet/character-sheet.component.spec.ts 12.37ms
-61/99 ./src/app/character-sheet/character-sheet.component.ts 28.08ms
-62/99 ./src/app/mainnav/mainnav.component.html 29.00ms
-63/99 ./src/app/mainnav/mainnav.component.scss 15.31ms
-64/99 ./src/app/mainnav/mainnav.component.spec.ts 6.17ms
-65/99 ./src/app/mainnav/mainnav.component.ts 8.87ms
-66/99 ./src/app/rpg-selection/rpg-selection.component.html 12.94ms
-67/99 ./src/app/rpg-selection/rpg-selection.component.scss 3.01ms
-68/99 ./src/app/rpg-selection/rpg-selection.component.spec.ts 6.13ms
-69/99 ./src/app/rpg-selection/rpg-selection.component.ts 18.75ms
-70/99 ./src/app/services/data.service.spec.ts 7.74ms
-71/99 ./src/app/services/data.service.ts 27.33ms
-72/99 ./src/app/services/navigation.service.spec.ts 15.95ms
-73/99 ./src/app/services/navigation.service.ts 9.05ms
-74/99 ./src/app/side-nav-content/side-nav-content.component.html 21.72ms
-75/99 ./src/app/side-nav-content/side-nav-content.component.scss 3.62ms
-76/99 ./src/app/side-nav-content/side-nav-content.component.spec.ts 6.80ms
-77/99 ./src/app/side-nav-content/side-nav-content.component.ts 14.24ms
-78/99 ./src/app/types/FATE Core/FATECoreSharSheet.ts 9.35ms
-79/99 ./src/app/types/FATE Core/FateAspect.ts 6.43ms
-80/99 ./src/app/types/FATE Core/FateAspectsMain.ts 10.68ms
-81/99 ./src/app/types/FATE Core/FateConsequenceSlot.ts 4.74ms
-82/99 ./src/app/types/FATE Core/FateId.ts 18.18ms
-83/99 ./src/app/types/FATE Core/FateSkill.ts 5.88ms
-84/99 ./src/app/types/FATE Core/FateSkillLevel.ts 4.71ms
-85/99 ./src/app/types/FATE Core/FateStressConsequences.ts 4.66ms
-86/99 ./src/app/types/FATE Core/FateStressTrack.ts 5.25ms
-87/99 ./src/app/types/FATE Core/FateStuntExtras.ts 4.63ms
-88/99 ./src/app/types/testing.ts 2.88ms
-89/99 ./src/assets/.gitkeep 1.84ms
-90/99 ./src/environments/environment.prod.ts 8.46ms
-91/99 ./src/environments/environment.ts 21.61ms
-92/99 ./src/index.html 15.72ms
-93/99 ./src/main.ts 6.27ms
-94/99 ./src/polyfills.ts 24.94ms
-95/99 ./src/styles.scss 4.93ms
-96/99 ./src/test.ts 42.21ms
-97/99 ./tsconfig.app.json 12.67ms
-98/99 ./tsconfig.json 20.67ms
-99/99 ./tsconfig.spec.json 4.30ms
-CSpell: Files checked: 99, Issues found: 5 in 3 files
-
-
-You can skip this misspellings by defining the following .cspell.json file at the root of your repository
-Of course, please correct real typos before :)
-
-{
-    "version": "0.2",
-    "language": "en",
-    "ignorePaths": [
-        "**/node_modules/**",
-        "**/vscode-extension/**",
-        "**/.git/**",
-        ".vscode",
-        "package-lock.json",
-        "report"
-    ],
-    "words": [
-        "JSONLINT",
-        "specialchars",
-        "stylelint",
-        "tagname"
-    ]
-}
-
-
-You can also copy-paste report/.cspell.json at the root of your repository

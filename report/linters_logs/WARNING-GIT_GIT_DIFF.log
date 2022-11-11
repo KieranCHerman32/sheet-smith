@@ -1,9 +1,0 @@
-Results of git_diff linter (version 2.30.3)
-See documentation on https://megalinter.github.io/descriptors/git_git_diff/
------------------------------------------------
-
-❌ [ERROR] for workspace /github/workspace
-Linter raw log:
-report/mega-linter.log:3: trailing whitespace.
-+Please upgrade your configuration by running the following command at the root of your repository (requires node.js): 
-
