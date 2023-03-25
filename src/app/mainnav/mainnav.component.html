@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"
+          (click)="drawer.toggle()">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <!-- ssVer id will change based on release...dynamically displayed versioning -->
+  <span (click)="drawer.toggle()">SheetSmith<span id="ssVer">&nbsp;{{ssVer}}</span></span>
+  <span class="example-spacer"></span>
+</mat-toolbar>
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side" [opened]="true">
+    <app-side-nav-content></app-side-nav-content>
+  </mat-drawer>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>
