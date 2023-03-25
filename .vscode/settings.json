@@ -1,14 +1,1 @@
-{
-  "cSpell.words": [
-    "camelcase",
-    "Firestore",
-    "fontawesome",
-    "fortawesome",
-    "Mainnav",
-    "TTRPG"
-  ],
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-"scssLint.configDir": ".scss-lint.yml",
-"editor.detectIndentation": false
-}
+{}

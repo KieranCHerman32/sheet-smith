@@ -1,6 +1,0 @@
-{
-  "extends": "stylelint-config-standard",
-  "no-empty-source": false,
-  "selector-pseudo-element-no-unknown": false,
-  "selector-id-pattern": false
-}
