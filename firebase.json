@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "sheet-smith",
-      "public": "dist/sheet-smith",
+      "public": "dist/sheet-smith/browser",
       "ignore": ["**/.*"],
       "headers": [
         {
