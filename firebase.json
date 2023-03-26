@@ -2,8 +2,10 @@
   "hosting": [
     {
       "target": "sheet-smith",
-      "public": "dist/sheet-smith",
-      "ignore": ["**/.*"],
+      "public": "dist/sheet-smith/browser",
+      "ignore": [
+        "**/.*"
+      ],
       "headers": [
         {
           "source": "*.[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f].+(css|js)",

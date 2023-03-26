@@ -19,6 +19,10 @@ import { CharacterSheetComponent } from './character-sheet/character-sheet.compo
 import { MainnavComponent } from './mainnav/mainnav.component';
 import { RpgSelectionComponent } from './rpg-selection/rpg-selection.component';
 import { SideNavContentComponent } from './side-nav-content/side-nav-content.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideAuth,getAuth } from '@angular/fire/auth';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 @NgModule({
 	declarations: [
@@ -31,7 +35,7 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 	imports: [
 		AppRoutingModule,
 		BrowserAnimationsModule,
-		BrowserModule,
+		BrowserModule.withServerTransition({ appId: 'serverApp' }),
 		FontAwesomeModule,
 		FormsModule,
 		MatButtonModule,
@@ -44,6 +48,9 @@ import { SideNavContentComponent } from './side-nav-content/side-nav-content.com
 		MatSidenavModule,
 		MatTableModule,
 		MatToolbarModule,
+  provideFirebaseApp(() => initializeApp(environment.firebase)),
+  provideAuth(() => getAuth()),
+  provideDatabase(() => getDatabase()),
 	],
 	providers: [],
 	bootstrap: [AppComponent],
