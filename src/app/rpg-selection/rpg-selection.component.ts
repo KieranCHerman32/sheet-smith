@@ -16,8 +16,8 @@ export class RpgSelectionComponent implements OnInit {
 
 	async fetchSheetData() {
 		this.sheetData = [];
-		this.dataService.rtGet('charSheets').forEach(sheet => {
-			this.sheetData = [...sheet];
-		});
+		// this.dataService.rtGet('charSheets').forEach(sheet => {
+		// 	this.sheetData = [...sheet];
+		// });
 	}
 }
