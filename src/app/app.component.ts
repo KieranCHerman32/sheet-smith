@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from './services/data.service';
 
 @Component({
 	selector: 'app-root',
@@ -7,10 +6,8 @@ import { DataService } from './services/data.service';
 	styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title?: string;
-	constructor(private dataService: DataService) {}
+	title?: string;
+	constructor() { }
 
-	ngOnInit() {
-    this.dataService.writeTest()
-  }
+	ngOnInit() { }
 }
