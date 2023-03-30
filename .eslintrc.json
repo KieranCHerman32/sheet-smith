@@ -4,21 +4,35 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["xo"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "overrides": [],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "ecmaVersion": 12,
+    "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": [
+    "@typescript-eslint"
+  ],
   "rules": {
-    "array-bracket-spacing": "off",
-    "new-cap": "off",
-    "no-return-assign": "off",
-    "no-undef": "off",
-    "no-unused-vars": "off",
-    "no-useless-constructor": "off",
-    "object-curly-spacing": "off",
-    "camelcase": "warn"
+    "indent": [
+      "error",
+      "tab"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
   }
 }
