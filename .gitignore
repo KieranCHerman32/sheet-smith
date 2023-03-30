@@ -53,3 +53,5 @@ Thumbs.db
 /.angular
 /.vscode
 /report
+
+megalinter-reports/
