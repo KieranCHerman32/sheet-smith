@@ -7,7 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class NavigationService {
 	constructor(private router: Router, private route: ActivatedRoute) {}
 
-	to(path: string, relative: boolean = true) {
+	to(path: string, relative = true) {
 		console.log(this.router.url);
 		if (relative === true) {
 			this.router.navigate([`/${path}`], { relativeTo: this.route });
@@ -16,7 +16,7 @@ export class NavigationService {
 		}
 	}
 
-	back(relative: boolean = true) {
+	back(relative = true) {
 		if (relative === false) {
 			this.router.navigate(['..']);
 		} else {
