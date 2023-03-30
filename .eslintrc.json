@@ -23,7 +23,7 @@
       "tab"
     ],
     "linebreak-style": [
-      "error",
+      "warn",
       "unix"
     ],
     "quotes": [
@@ -33,6 +33,30 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "array-bracket-spacing": [
+      "error",
+      "never"
+    ],
+    // "array-bracket-newline": [
+    //   "error",
+    //   {
+    //     "minItems": 2
+    //   }
+    // ],
+    // "array-element-newline": [
+    //   "error",
+    //   {
+    //     "minItems": 2
+    //   }
+    // ],
+    "arrow-parens": "warn",
+    "arrow-spacing": "warn",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "block-scoped-var": "warn",
+    "camelcase": "warn",
+    "default-case": "warn",
+    "@typescript-eslint/no-explicit-any": "off"
   }
 }
