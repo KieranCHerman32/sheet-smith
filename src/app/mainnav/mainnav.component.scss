@@ -34,7 +34,7 @@ mat-drawer {
   font-weight: 400;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (width >= 768px) {
   mat-drawer {
     min-width: unset;
   }
